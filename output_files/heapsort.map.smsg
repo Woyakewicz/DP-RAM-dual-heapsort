@@ -1,0 +1,2 @@
+Warning (10268): Verilog HDL information at heapsort.v(156): always construct contains both blocking and non-blocking assignments File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 156
+Warning (10268): Verilog HDL information at sorting_node.v(66): always construct contains both blocking and non-blocking assignments File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 66

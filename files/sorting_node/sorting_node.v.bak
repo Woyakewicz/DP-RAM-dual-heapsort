@@ -1,0 +1,23 @@
+module sorting_node #(LEVEL)
+(
+	input clk,
+	input rst,
+	
+	//conexão para upper records
+	input [31:0] q_U,
+	output [31:0]data_U,
+	output [LEVEl-1:0]addr_U,
+	output wren_U,
+	
+	//conexão para lower records
+	input [31:0] q_L,
+	output [31:0] data_L,
+	output [LEVEl:0]addr_L,
+	output wren_L,
+	
+	output update_out,
+	input update_in
+);
+
+
+	
