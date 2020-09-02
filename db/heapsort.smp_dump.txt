@@ -6,6 +6,54 @@ SM_heapsort.first_buffer_odd 0 0 1 1
 SM_heapsort.wait_odds 0 1 0 1 
 SM_heapsort.first_buffer 1 0 0 1 
 
+State Machine - |heapsort|sorting_node:sorting_node_10|SM_sorting
+Name SM_sorting.Step2_LN SM_sorting.wait_level SM_sorting.Step1 SM_sorting.000 SM_sorting.Step2_RN 
+SM_sorting.000 0 0 0 0 0 
+SM_sorting.Step1 0 0 1 1 0 
+SM_sorting.wait_level 0 1 0 1 0 
+SM_sorting.Step2_LN 1 0 0 1 0 
+SM_sorting.Step2_RN 0 0 0 1 1 
+
+State Machine - |heapsort|sorting_node:sorting_node_9|SM_sorting
+Name SM_sorting.Step2_LN SM_sorting.wait_level SM_sorting.Step1 SM_sorting.000 SM_sorting.Step2_RN 
+SM_sorting.000 0 0 0 0 0 
+SM_sorting.Step1 0 0 1 1 0 
+SM_sorting.wait_level 0 1 0 1 0 
+SM_sorting.Step2_LN 1 0 0 1 0 
+SM_sorting.Step2_RN 0 0 0 1 1 
+
+State Machine - |heapsort|sorting_node:sorting_node_8|SM_sorting
+Name SM_sorting.Step2_LN SM_sorting.wait_level SM_sorting.Step1 SM_sorting.000 SM_sorting.Step2_RN 
+SM_sorting.000 0 0 0 0 0 
+SM_sorting.Step1 0 0 1 1 0 
+SM_sorting.wait_level 0 1 0 1 0 
+SM_sorting.Step2_LN 1 0 0 1 0 
+SM_sorting.Step2_RN 0 0 0 1 1 
+
+State Machine - |heapsort|sorting_node:sorting_node_7|SM_sorting
+Name SM_sorting.Step2_LN SM_sorting.wait_level SM_sorting.Step1 SM_sorting.000 SM_sorting.Step2_RN 
+SM_sorting.000 0 0 0 0 0 
+SM_sorting.Step1 0 0 1 1 0 
+SM_sorting.wait_level 0 1 0 1 0 
+SM_sorting.Step2_LN 1 0 0 1 0 
+SM_sorting.Step2_RN 0 0 0 1 1 
+
+State Machine - |heapsort|sorting_node:sorting_node_6|SM_sorting
+Name SM_sorting.Step2_LN SM_sorting.wait_level SM_sorting.Step1 SM_sorting.000 SM_sorting.Step2_RN 
+SM_sorting.000 0 0 0 0 0 
+SM_sorting.Step1 0 0 1 1 0 
+SM_sorting.wait_level 0 1 0 1 0 
+SM_sorting.Step2_LN 1 0 0 1 0 
+SM_sorting.Step2_RN 0 0 0 1 1 
+
+State Machine - |heapsort|sorting_node:sorting_node_5|SM_sorting
+Name SM_sorting.Step2_LN SM_sorting.wait_level SM_sorting.Step1 SM_sorting.000 SM_sorting.Step2_RN 
+SM_sorting.000 0 0 0 0 0 
+SM_sorting.Step1 0 0 1 1 0 
+SM_sorting.wait_level 0 1 0 1 0 
+SM_sorting.Step2_LN 1 0 0 1 0 
+SM_sorting.Step2_RN 0 0 0 1 1 
+
 State Machine - |heapsort|sorting_node:sorting_node_4|SM_sorting
 Name SM_sorting.Step2_LN SM_sorting.wait_level SM_sorting.Step1 SM_sorting.000 SM_sorting.Step2_RN 
 SM_sorting.000 0 0 0 0 0 

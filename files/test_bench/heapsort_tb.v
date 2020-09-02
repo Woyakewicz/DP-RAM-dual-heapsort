@@ -14,7 +14,7 @@ module heapsort_tb (
 		en_rec_in = 0;
 		rst = 1;
 		n_first = 0;
-		f3 =   $fopen("../../files/data/rand_3_lvl_4.hex","rb");
+		f3 =   $fopen("../../files/data/rand_lvl_10.hex","rb");
 //		f4 =   $fopen("../Signal_declipper_1ch_top_out.hex","wb");
 
 		#200;

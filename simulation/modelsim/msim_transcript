@@ -12,59 +12,59 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:43:01 on Sep 01,2020
+# Start time: 17:41:26 on Sep 02,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v 
 # -- Compiling module RAM_2_port_gen
 # 
 # Top level modules:
 # 	RAM_2_port_gen
-# End time: 14:43:01 on Sep 01,2020, Elapsed time: 0:00:00
+# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/strobe_relative.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:43:01 on Sep 01,2020
+# Start time: 17:41:26 on Sep 02,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/strobe_relative.v 
 # -- Compiling module strobe_relative
 # 
 # Top level modules:
 # 	strobe_relative
-# End time: 14:43:02 on Sep 01,2020, Elapsed time: 0:00:01
+# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:43:02 on Sep 01,2020
+# Start time: 17:41:26 on Sep 02,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v 
 # -- Compiling module heapsort
 # 
 # Top level modules:
 # 	heapsort
-# End time: 14:43:02 on Sep 01,2020, Elapsed time: 0:00:00
+# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:43:02 on Sep 01,2020
+# Start time: 17:41:26 on Sep 02,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v 
 # -- Compiling module sorting_node
 # 
 # Top level modules:
 # 	sorting_node
-# End time: 14:43:02 on Sep 01,2020, Elapsed time: 0:00:00
+# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:43:02 on Sep 01,2020
+# Start time: 17:41:27 on Sep 02,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v 
 # -- Compiling module heapsort_tb
 # 
 # Top level modules:
 # 	heapsort_tb
-# End time: 14:43:02 on Sep 01,2020, Elapsed time: 0:00:00
+# End time: 17:41:27 on Sep 02,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  heapsort_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" heapsort_tb 
-# Start time: 14:43:02 on Sep 01,2020
+# Start time: 17:41:27 on Sep 02,2020
 # Loading work.heapsort_tb
 # Loading work.heapsort
 # Loading work.strobe_relative
@@ -76,12 +76,12 @@
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # ** Warning: (vsim-PLI-3691) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v(35): Expected a system task, not a system function '$fscanf'.
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(274): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(437): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_1 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(293): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v(28).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(456): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v(28).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_1 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(434): [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(825): [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(47).
+#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
 # 
 # do D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/simulation/modelsim/wave.do
 # onerror {resume}
@@ -381,10 +381,28 @@
 # WaveRestoreZoom {259785478 ps} {260279826 ps}
 run -all
 # Warning : Address pointed at port B is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_10.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_9.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port B is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_8.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_7.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port B is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_6.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_5.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port B is out of bound!
 # Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_4.altsyncram_component.m_default.altsyncram_inst
 # Warning : Address pointed at port A is out of bound!
 # Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_3.altsyncram_component.m_default.altsyncram_inst
 # Warning : Address pointed at port A is out of bound!
 # Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_3.altsyncram_component.m_default.altsyncram_inst
-# End time: 14:49:16 on Sep 01,2020, Elapsed time: 0:06:14
+# Warning : Address pointed at port A is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_5.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_7.altsyncram_component.m_default.altsyncram_inst
+# Warning : Address pointed at port A is out of bound!
+# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_9.altsyncram_component.m_default.altsyncram_inst
+# End time: 17:45:43 on Sep 02,2020, Elapsed time: 0:04:16
 # Errors: 0, Warnings: 4
