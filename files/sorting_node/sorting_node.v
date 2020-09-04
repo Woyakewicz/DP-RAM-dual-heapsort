@@ -1,21 +1,22 @@
 module sorting_node	 #(parameter LEVEL = 2,
+								parameter WIDTH = 15,
 								parameter LENGTH = 4)
 (
 	input clk,
 	input rst,
 	
 	//conexão para upper records
-	input [31:0] q_U,
-	input [31:0] aux_q_U,
-	output [31:0]data_U,
+	input [WIDTH:0] q_U,
+	input [WIDTH:0] aux_q_U,
+	output [WIDTH:0]data_U,
 	output [LEVEL-1:0]addr_U,
 	output wren_U,
 	
 	//conexão para lower records
-	input [31:0] q_L,
-	input [31:0] aux_q_L,
-	input [31:0] aux_q_R,
-	output [31:0] data_L,
+	input [WIDTH:0] q_L,
+	input [WIDTH:0] aux_q_L,
+	input [WIDTH:0] aux_q_R,
+	output [WIDTH:0] data_L,
 	output [LEVEL:0]addr_L,
 	output wren_L,
 	
@@ -40,10 +41,10 @@ module sorting_node	 #(parameter LEVEL = 2,
 	//Declaração dos registradores 
 	
 	reg [LEVEL:0]addr_L_reg;
-	reg [31:0] data_L_reg;
+	reg [WIDTH:0] data_L_reg;
 	
 	reg [LEVEL-1:0]addr_U_reg;
-	reg [31:0] data_U_reg;
+	reg [WIDTH:0] data_U_reg;
 	
 	reg wren_L_reg = 0;
 	reg wren_U_reg = 0;
@@ -58,7 +59,7 @@ module sorting_node	 #(parameter LEVEL = 2,
 	reg upper_updated = 0;
 	
 	reg swap_LN = 0;
-	reg [31:0] left = 0;
+	reg [WIDTH:0] left = 0;
 	
 	reg [2:0] swap_flag = 0;
 	

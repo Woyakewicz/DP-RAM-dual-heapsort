@@ -27,14 +27,14 @@ module heapsort_tb (
 
 	
 	//wire en_rec_in;
-	wire [31:0] data_out;
-	reg [31:0] data_in;
+	wire [15:0] data_out;
+	reg [15:0] data_in;
 //	reg [31:0] signal_1;
 	always @(posedge fs)
 		if ((en_rec_in) && ~rst)
 			$fscanf(f3,   "%h\n", data_in);
 
-	heapsort #(.LEVEL(2)) heapsort
+	heapsort heapsort
 	(
 		.clk(clk),
 		.fs(fs),

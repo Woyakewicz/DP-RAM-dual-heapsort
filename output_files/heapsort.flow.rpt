@@ -1,5 +1,5 @@
 Flow report for heapsort
-Wed Sep 02 17:40:50 2020
+Fri Sep 04 17:35:08 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,20 +40,20 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Flow Summary                                                                     ;
 +------------------------------------+---------------------------------------------+
-; Flow Status                        ; Successful - Wed Sep 02 17:40:50 2020       ;
+; Flow Status                        ; Successful - Fri Sep 04 17:35:08 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; heapsort                                    ;
 ; Top-level Entity Name              ; heapsort                                    ;
 ; Family                             ; Cyclone IV E                                ;
 ; Device                             ; EP4CE115F29C7                               ;
 ; Timing Models                      ; Final                                       ;
-; Total logic elements               ; 2,899 / 114,480 ( 3 % )                     ;
-;     Total combinational functions  ; 2,821 / 114,480 ( 2 % )                     ;
-;     Dedicated logic registers      ; 1,291 / 114,480 ( 1 % )                     ;
-; Total registers                    ; 1291                                        ;
-; Total pins                         ; 68 / 529 ( 13 % )                           ;
+; Total logic elements               ; 1,744 / 114,480 ( 2 % )                     ;
+;     Total combinational functions  ; 1,685 / 114,480 ( 1 % )                     ;
+;     Dedicated logic registers      ; 795 / 114,480 ( < 1 % )                     ;
+; Total registers                    ; 795                                         ;
+; Total pins                         ; 36 / 529 ( 7 % )                            ;
 ; Total virtual pins                 ; 0                                           ;
-; Total memory bits                  ; 65,504 / 3,981,312 ( 2 % )                  ;
+; Total memory bits                  ; 32,768 / 3,981,312 ( < 1 % )                ;
 ; Embedded Multiplier 9-bit elements ; 0 / 532 ( 0 % )                             ;
 ; Total PLLs                         ; 0 / 4 ( 0 % )                               ;
 +------------------------------------+---------------------------------------------+
@@ -64,7 +64,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 09/02/2020 17:39:14 ;
+; Start date & time ; 09/04/2020 17:34:03 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; heapsort            ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ refer to the applicable agreement for further details.
 +----------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                        ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +----------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID                  ; 93180998088069.159907915315580         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID                  ; 93180998088069.159925164310860         ; --            ; --          ; --             ;
 ; EDA_DESIGN_INSTANCE_NAME               ; NA                                     ; --            ; --          ; heapsort_tb    ;
 ; EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT ; simulation/modelsim/wave.do            ; --            ; --          ; eda_simulation ;
 ; EDA_NATIVELINK_SIMULATION_TEST_BENCH   ; heapsort_tb                            ; --            ; --          ; eda_simulation ;
@@ -91,7 +91,6 @@ refer to the applicable agreement for further details.
 ; MISC_FILE                              ; absolute_value_inst.v                  ; --            ; --          ; --             ;
 ; MISC_FILE                              ; absolute_value_syn.v                   ; --            ; --          ; --             ;
 ; MISC_FILE                              ; compare_in_bb.v                        ; --            ; --          ; --             ;
-; NOMINAL_CORE_SUPPLY_VOLTAGE            ; 1.2V                                   ; --            ; --          ; --             ;
 ; PARTITION_COLOR                        ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_FITTER_PRESERVATION_LEVEL    ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
 ; PARTITION_NETLIST_TYPE                 ; -- (Not supported for targeted family) ; --            ; --          ; Top            ;
@@ -106,12 +105,12 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4847 MB             ; 00:00:26                           ;
-; Fitter               ; 00:00:35     ; 1.1                     ; 5962 MB             ; 00:01:06                           ;
-; Assembler            ; 00:00:03     ; 1.0                     ; 4696 MB             ; 00:00:03                           ;
-; Timing Analyzer      ; 00:00:30     ; 3.7                     ; 4981 MB             ; 00:00:31                           ;
-; EDA Netlist Writer   ; 00:00:04     ; 1.0                     ; 4693 MB             ; 00:00:03                           ;
-; Total                ; 00:01:30     ; --                      ; --                  ; 00:02:09                           ;
+; Analysis & Synthesis ; 00:00:18     ; 1.0                     ; 4854 MB             ; 00:00:25                           ;
+; Fitter               ; 00:00:26     ; 1.1                     ; 5874 MB             ; 00:00:44                           ;
+; Assembler            ; 00:00:03     ; 1.0                     ; 4700 MB             ; 00:00:03                           ;
+; Timing Analyzer      ; 00:00:11     ; 3.4                     ; 4932 MB             ; 00:00:11                           ;
+; EDA Netlist Writer   ; 00:00:03     ; 1.0                     ; 4680 MB             ; 00:00:03                           ;
+; Total                ; 00:01:01     ; --                      ; --                  ; 00:01:26                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

@@ -1,0 +1,76 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/simulation/modelsim
+vhard_block
+Z1 !s110 1599252369
+!i10b 1
+!s100 dghf=CQz[D;Do>=?>zkln0
+I]SIBGgf_fORdM?MdH3mYG1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1599251706
+Z4 8heapsort_7_1200mv_85c_slow.vo
+Z5 Fheapsort_7_1200mv_85c_slow.vo
+L0 48860
+Z6 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z7 !s108 1599252369.000000
+Z8 !s107 heapsort_7_1200mv_85c_slow.vo|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+.|heapsort_7_1200mv_85c_slow.vo|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work +incdir+.
+Z12 tCvgOpt 0
+vheapsort
+R1
+!i10b 1
+!s100 KFUU3=7>g5AA]>[oa4im13
+I]9][l@ZRK<IVK7Ud=1kea2
+R2
+R0
+R3
+R4
+R5
+L0 31
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+R12
+vheapsort_tb
+R1
+!i10b 1
+!s100 i]9VkK3X];A:_C44@PHIM1
+IMd0T@egGdYlh;KP@I52zP2
+R2
+R0
+w1599154282
+8D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v
+FD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+!s107 D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench|D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v|
+!i113 1
+R10
+!s92 -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench
+R12

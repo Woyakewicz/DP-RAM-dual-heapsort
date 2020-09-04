@@ -1,5 +1,5 @@
 module heapsort #(parameter LEVEL = 10, 
-						parameter WIDTH = 31,
+						parameter WIDTH = 15,
 						parameter WINDOW_LENGTH = 2047)
 (
 	input clk,
@@ -432,8 +432,23 @@ module heapsort #(parameter LEVEL = 10,
 	/********************************************/
 	
 	//Primeira memória 
-	RAM_2_port_gen #( .WIDTH(WIDTH+1),
-                    .LENGHT(1), .LENGHT_EXP(1) ) 
+//	RAM_2_port_gen #( .WIDTH(WIDTH+1),
+//                    .LENGHT(1), .LENGHT_EXP(1) ) 
+//	RAM_LEVEL_1 (
+//		.clock(clk),
+//
+//		.address_a(addr_U_1),
+//		.wren_a(wr_en_U_1),
+//		.data_a(data_U_1),
+//		.q_a(q_U_1),
+//
+//		.address_b(0),
+//		.wren_b(wr_en_L_1),
+//		.data_b(data_L_1),
+//		.q_b(q_L_1) 
+//	);
+	
+	RAM_2_port_1
 	RAM_LEVEL_1 (
 		.clock(clk),
 
@@ -447,8 +462,6 @@ module heapsort #(parameter LEVEL = 10,
 		.data_b(data_L_1),
 		.q_b(q_L_1) 
 	);
-	
-
 	
 	/******* Declaração das memórias e sorting nodes em ordem *******/
 

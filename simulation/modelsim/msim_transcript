@@ -1,87 +1,61 @@
 # Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
-# do heapsort_run_msim_rtl_verilog.do
-# if {[file exists rtl_work]} {
-# 	vdel -lib rtl_work -all
+# do heapsort_run_msim_gate_verilog.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
 # }
-# vlib rtl_work
-# vmap work rtl_work
+# vlib gate_work
+# vmap work gate_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
-# vmap work rtl_work 
+# vmap work gate_work 
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v}
+# vlog -vlog01compat -work work +incdir+. {heapsort_7_1200mv_85c_slow.vo}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:41:26 on Sep 02,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v 
-# -- Compiling module RAM_2_port_gen
-# 
-# Top level modules:
-# 	RAM_2_port_gen
-# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/strobe_relative.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:41:26 on Sep 02,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/strobe_relative.v 
-# -- Compiling module strobe_relative
-# 
-# Top level modules:
-# 	strobe_relative
-# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:41:26 on Sep 02,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v 
+# Start time: 17:46:09 on Sep 04,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+." heapsort_7_1200mv_85c_slow.vo 
 # -- Compiling module heapsort
+# -- Compiling module hard_block
 # 
 # Top level modules:
 # 	heapsort
-# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:41:26 on Sep 02,2020
-# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v 
-# -- Compiling module sorting_node
-# 
-# Top level modules:
-# 	sorting_node
-# End time: 17:41:26 on Sep 02,2020, Elapsed time: 0:00:00
+# End time: 17:46:09 on Sep 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 17:41:27 on Sep 02,2020
+# Start time: 17:46:09 on Sep 04,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v 
 # -- Compiling module heapsort_tb
 # 
 # Top level modules:
 # 	heapsort_tb
-# End time: 17:41:27 on Sep 02,2020, Elapsed time: 0:00:00
+# End time: 17:46:09 on Sep 04,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  heapsort_tb
-# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" heapsort_tb 
-# Start time: 17:41:27 on Sep 02,2020
+# vsim -t 1ps +transport_int_delays +transport_path_delays -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs="+acc"  heapsort_tb
+# vsim -t 1ps "+transport_int_delays" "+transport_path_delays" -L altera_ver -L cycloneive_ver -L gate_work -L work -voptargs=""+acc"" heapsort_tb 
+# Start time: 17:46:10 on Sep 04,2020
 # Loading work.heapsort_tb
 # Loading work.heapsort
-# Loading work.strobe_relative
-# Loading work.RAM_2_port_gen
-# Loading altera_mf_ver.altsyncram
-# Loading work.sorting_node
-# Loading altera_mf_ver.altsyncram_body
-# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
-# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.hard_block
+# Loading cycloneive_ver.cycloneive_io_obuf
+# Loading cycloneive_ver.cycloneive_io_ibuf
+# Loading cycloneive_ver.cycloneive_clkctrl
+# Loading cycloneive_ver.cycloneive_mux41
+# Loading cycloneive_ver.cycloneive_ena_reg
+# Loading cycloneive_ver.cycloneive_lcell_comb
+# Loading altera_ver.dffeas
+# Loading cycloneive_ver.cycloneive_ram_block
+# Loading cycloneive_ver.cycloneive_ram_register
+# Loading cycloneive_ver.cycloneive_ram_pulse_generator
 # ** Warning: (vsim-PLI-3691) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v(35): Expected a system task, not a system function '$fscanf'.
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(437): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_1 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(456): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v(28).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_1 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v(825): [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(47).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
+# Loading instances from heapsort_7_1200mv_85c_v_slow.sdo
+# Loading altera_ver.PRIM_GDFF_LOW
+# Loading timing data from heapsort_7_1200mv_85c_v_slow.sdo
+# ** Note: (vsim-3587) SDF Backannotation Successfully Completed.
+#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v
 # 
 # do D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/simulation/modelsim/wave.do
 # onerror {resume}
@@ -98,269 +72,743 @@
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/rst
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/fs
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/fs_in_stb
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/fs_in_stb'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 14
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/en_rec_in
 # add wave -noupdate -expand -group heapsort -radix unsigned /heapsort_tb/heapsort/data_in
 # add wave -noupdate -expand -group heapsort -radix unsigned /heapsort_tb/heapsort/data_out
 # add wave -noupdate -expand -group heapsort -radix unsigned /heapsort_tb/heapsort/median
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/median'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 18
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/counter
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/counter'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 19
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/addr_U_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_U_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 20
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/wr_en_U_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wr_en_U_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 21
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/data_U_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/data_U_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 22
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/q_U_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/q_U_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 23
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/addr_L_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_L_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 24
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/wr_en_L_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wr_en_L_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 25
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/data_L_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/data_L_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 26
 # add wave -noupdate -expand -group heapsort -group RAM1 /heapsort_tb/heapsort/q_L_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/q_L_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 27
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/addr_U_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_U_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 28
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/wr_en_U_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wr_en_U_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 29
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/data_U_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/data_U_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 30
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/q_U_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/q_U_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 31
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/addr_L_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_L_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 32
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/wr_en_L_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wr_en_L_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 33
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/data_L_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/data_L_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 34
 # add wave -noupdate -expand -group heapsort -group RAM2 /heapsort_tb/heapsort/q_L_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/q_L_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 35
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/addr_U_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_U_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 36
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/wr_en_U_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wr_en_U_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 37
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/data_U_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/data_U_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 38
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/q_U_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/q_U_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 39
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/addr_L_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_L_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 40
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/wr_en_L_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wr_en_L_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 41
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/data_L_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/data_L_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 42
 # add wave -noupdate -expand -group heapsort -group RAM3 /heapsort_tb/heapsort/q_L_3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/q_L_3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 43
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/initialize_odd
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/initialize_odd'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 44
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/initialize_even
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/initialize_even'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 45
 # add wave -noupdate -expand -group heapsort -divider {Comparador da entrada}
 # add wave -noupdate -expand -group heapsort -radix unsigned /heapsort_tb/heapsort/data_in
 # add wave -noupdate -expand -group heapsort -radix unsigned /heapsort_tb/heapsort/data_U_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/data_U_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 48
 # add wave -noupdate -expand -group heapsort -radix unsigned /heapsort_tb/heapsort/q_L_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/q_L_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 49
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/alb
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/alb'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 50
 # add wave -noupdate -expand -group heapsort -divider {maquina de estados}
 # add wave -noupdate -expand -group heapsort -radix decimal /heapsort_tb/heapsort/SM_heapsort
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/SM_heapsort'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 52
 # add wave -noupdate -expand -group heapsort -radix decimal /heapsort_tb/heapsort/wait_buffer
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wait_buffer'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 53
 # add wave -noupdate -expand -group heapsort -radix decimal /heapsort_tb/heapsort/first_buffer_odd
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/first_buffer_odd'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 54
 # add wave -noupdate -expand -group heapsort -radix decimal /heapsort_tb/heapsort/wait_odds
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wait_odds'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 55
 # add wave -noupdate -expand -group heapsort -radix decimal /heapsort_tb/heapsort/first_buffer
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/first_buffer'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 56
 # add wave -noupdate -expand -group heapsort -radix decimal /heapsort_tb/heapsort/end_record
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/end_record'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 57
 # add wave -noupdate -expand -group heapsort -radix decimal /heapsort_tb/heapsort/clear_memory
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/clear_memory'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 58
 # add wave -noupdate -expand -group heapsort -divider <NULL>
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/wr_en_L_1_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/wr_en_L_1_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 60
 # add wave -noupdate -expand -group heapsort -radix unsigned /heapsort_tb/heapsort/data_L_1_reg
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/update_out_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/update_out_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 62
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/update_in_1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/update_in_1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 63
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/update_in_1_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/update_in_1_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 64
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/addr_up_out_RAM2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_up_out_RAM2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 65
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/update_out_2
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/update_out_2'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 66
 # add wave -noupdate -expand -group heapsort /heapsort_tb/heapsort/addr_up_out_RAM3
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/addr_up_out_RAM3'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 67
 # add wave -noupdate -expand -group sorting_node_1 /heapsort_tb/heapsort/sorting_node_1/clk
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/clk'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 68
 # add wave -noupdate -expand -group sorting_node_1 /heapsort_tb/heapsort/sorting_node_1/rst
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/rst'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 69
 # add wave -noupdate -expand -group sorting_node_1 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 71
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/aux_q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/aux_q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 72
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/data_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/data_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 73
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/addr_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/addr_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 74
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/wren_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/wren_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 75
 # add wave -noupdate -expand -group sorting_node_1 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 77
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/aux_q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/aux_q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 78
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/aux_q_R
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/aux_q_R'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 79
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/data_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/data_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 80
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/addr_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/addr_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 81
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/wren_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/wren_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 82
 # add wave -noupdate -expand -group sorting_node_1 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/initialize
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/initialize'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 84
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/update_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/update_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 85
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/update_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/update_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 86
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/address_updated_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/address_updated_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 87
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/address_updated_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/address_updated_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 88
 # add wave -noupdate -expand -group sorting_node_1 -divider SM_sorting
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/SM_sorting
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/SM_sorting'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 90
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/Initial_State
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/Initial_State'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 91
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/Step1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/Step1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 92
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/wait_level
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/wait_level'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 93
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/Step2_LN
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/Step2_LN'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 94
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/Step2_RN
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/Step2_RN'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 95
 # add wave -noupdate -expand -group sorting_node_1 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/addr_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/addr_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 97
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/data_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/data_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 98
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/addr_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/addr_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 99
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/data_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/data_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 100
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/wren_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/wren_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 101
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/wren_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/wren_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 102
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/update_out_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/update_out_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 103
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/swap_LN
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/swap_LN'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 104
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/left
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/left'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 105
 # add wave -noupdate -radix unsigned /heapsort_tb/heapsort/sorting_node_1/swap_flag
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_1/swap_flag'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 106
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/clk
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/clk'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 107
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/rst
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/rst'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 108
 # add wave -noupdate -expand -group sorting_node_2 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 110
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/aux_q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/aux_q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 111
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/data_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/data_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 112
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/addr_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 113
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/wren_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/wren_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 114
 # add wave -noupdate -expand -group sorting_node_2 -divider {Lower records}
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 116
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/aux_q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/aux_q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 117
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/aux_q_R
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/aux_q_R'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 118
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/data_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/data_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 119
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/addr_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 120
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/wren_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/wren_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 121
 # add wave -noupdate -expand -group sorting_node_2 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/initialize
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/initialize'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 123
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/update_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/update_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 124
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/update_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/update_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 125
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/address_updated_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/address_updated_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 126
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/address_updated_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/address_updated_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 127
 # add wave -noupdate -expand -group sorting_node_2 -divider {SM Sorting}
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/SM_sorting
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/SM_sorting'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 129
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/addr_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 130
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/data_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/data_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 131
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/addr_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 132
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/data_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/data_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 133
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/wren_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/wren_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 134
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/wren_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/wren_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 135
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/update_out_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/update_out_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 136
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/swap_LN
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/swap_LN'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 137
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/left
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/left'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 138
 # add wave -noupdate -radix unsigned /heapsort_tb/heapsort/sorting_node_2/swap_flag
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_2/swap_flag'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 139
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/clk
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/clk'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 140
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/rst
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/rst'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 141
 # add wave -noupdate -expand -group sorting_node_3 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 143
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/aux_q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/aux_q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 144
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/data_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/data_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 145
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/addr_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 146
 # add wave -noupdate -expand -group sorting_node_3 /heapsort_tb/heapsort/addr_U_3_reg
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/wren_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/wren_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 148
 # add wave -noupdate -expand -group sorting_node_3 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 150
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/aux_q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/aux_q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 151
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/aux_q_R
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/aux_q_R'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 152
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/data_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/data_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 153
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/addr_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 154
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/wren_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/wren_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 155
 # add wave -noupdate -expand -group sorting_node_3 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/initialize
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/initialize'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 157
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/update_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/update_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 158
 # add wave -noupdate -expand -group sorting_node_3 /heapsort_tb/heapsort/update_out_3_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/update_out_3_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 159
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/update_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/update_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 160
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/address_updated_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/address_updated_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 161
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/address_updated_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/address_updated_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 162
 # add wave -noupdate -expand -group sorting_node_3 -divider {SM Sorting}
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/SM_sorting
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/SM_sorting'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 164
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/addr_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 165
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/data_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/data_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 166
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/addr_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 167
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/data_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/data_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 168
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/wren_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/wren_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 169
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/wren_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/wren_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 170
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/counter_clear
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/counter_clear'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 171
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/update_out_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/update_out_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 172
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/address_updated_out_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/address_updated_out_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 173
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/address_updated_in_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/address_updated_in_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 174
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/upper_updated
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/upper_updated'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 175
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/swap_LN
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/swap_LN'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 176
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/left
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/left'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 177
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/swap_flag
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_3/swap_flag'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 178
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/clk
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/clk'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 179
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/rst
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/rst'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 180
 # add wave -noupdate -expand -group sorting_node_4 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 182
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/aux_q_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/aux_q_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 183
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/data_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/data_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 184
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/addr_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 185
 # add wave -noupdate -expand -group sorting_node_4 /heapsort_tb/heapsort/addr_U_4_reg
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/wren_U
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/wren_U'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 187
 # add wave -noupdate -expand -group sorting_node_4 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 189
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/aux_q_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/aux_q_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 190
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/aux_q_R
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/aux_q_R'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 191
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/data_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/data_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 192
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/addr_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 193
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/wren_L
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/wren_L'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 194
 # add wave -noupdate -expand -group sorting_node_4 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/initialize
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/initialize'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 196
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/update_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/update_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 197
 # add wave -noupdate -expand -group sorting_node_4 /heapsort_tb/heapsort/update_out_4_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/update_out_4_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 198
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/update_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/update_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 199
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/address_updated_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/address_updated_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 200
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/address_updated_in
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/address_updated_in'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 201
 # add wave -noupdate -expand -group sorting_node_4 -divider {SM Sorting}
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/SM_sorting
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/SM_sorting'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 203
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/addr_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 204
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/data_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/data_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 205
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/addr_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 206
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/data_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/data_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 207
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/wren_L_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/wren_L_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 208
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/wren_U_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/wren_U_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 209
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/counter_clear
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/counter_clear'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 210
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/update_out_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/update_out_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 211
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/address_updated_out_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/address_updated_out_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 212
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/address_updated_in_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/address_updated_in_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 213
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/upper_updated
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/upper_updated'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 214
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/swap_LN
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/swap_LN'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 215
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/left
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/left'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 216
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/swap_flag
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/sorting_node_4/swap_flag'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 217
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/address_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/address_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 218
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/address_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/address_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 219
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/clock
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/clock'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 220
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/data_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/data_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 221
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/data_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/data_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 222
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/wren_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/wren_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 223
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/wren_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/wren_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 224
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/q_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/q_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 225
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/q_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/q_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 226
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/sub_wire0
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/sub_wire0'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 227
 # add wave -noupdate -group RAM_LEVEL_1 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_1/sub_wire1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_1/sub_wire1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 228
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/address_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/address_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 229
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/address_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/address_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 230
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/clock
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/clock'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 231
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/data_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/data_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 232
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/data_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/data_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 233
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/wren_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/wren_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 234
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/wren_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/wren_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 235
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/q_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/q_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 236
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/q_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/q_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 237
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/sub_wire0
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/sub_wire0'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 238
 # add wave -noupdate -group RAM_LEVEL_2 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_2/sub_wire1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_2/sub_wire1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 239
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/address_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/address_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 240
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/address_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/address_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 241
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/clock
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/clock'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 242
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/data_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/data_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 243
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/data_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/data_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 244
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/wren_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/wren_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 245
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/wren_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/wren_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 246
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/q_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/q_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 247
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/q_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/q_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 248
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/sub_wire0
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/sub_wire0'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 249
 # add wave -noupdate -group RAM_LEVEL_3 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_3/sub_wire1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_3/sub_wire1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 250
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/address_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/address_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 251
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/address_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/address_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 252
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/clock
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/clock'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 253
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/data_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/data_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 254
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/data_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/data_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 255
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/wren_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/wren_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 256
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/wren_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/wren_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 257
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/q_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/q_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 258
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/q_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/q_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 259
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/sub_wire0
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/sub_wire0'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 260
 # add wave -noupdate -group RAM_LEVEL_4 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_4/sub_wire1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_4/sub_wire1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 261
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/address_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/address_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 262
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/address_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/address_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 263
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/clock
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/clock'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 264
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/data_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/data_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 265
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/data_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/data_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 266
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/wren_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/wren_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 267
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/wren_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/wren_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 268
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/q_a
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/q_a'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 269
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/q_b
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/q_b'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 270
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/sub_wire0
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/sub_wire0'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 271
 # add wave -noupdate -group RAM_LEVEL_5 -radix unsigned /heapsort_tb/heapsort/RAM_LEVEL_5/sub_wire1
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/RAM_LEVEL_5/sub_wire1'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 272
 # add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/clk
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/fs_stb_rise/clk'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 273
 # add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/in_relative
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/fs_stb_rise/in_relative'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 274
 # add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/stb_out
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/fs_stb_rise/stb_out'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 275
 # add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/stb_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/fs_stb_rise/stb_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 276
 # add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/stb_in_reg
+# ** Error: (vish-4014) No objects found matching '/heapsort_tb/heapsort/fs_stb_rise/stb_in_reg'.
+# Executing ONERROR command at macro D:\VITOR\UFSC\Linse\Wavelet\FPGA\heapsort\simulation\modelsim\wave.do line 277
 # TreeUpdate [SetDefaultTree]
 # WaveRestoreCursors {{Cursor 1} {821972 ps} 0}
 # quietly wave cursor active 1
@@ -380,29 +828,23 @@
 # update
 # WaveRestoreZoom {259785478 ps} {260279826 ps}
 run -all
-# Warning : Address pointed at port B is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_10.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_9.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port B is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_8.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_7.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port B is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_6.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_5.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port B is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_4.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_3.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_3.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_5.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_7.altsyncram_component.m_default.altsyncram_inst
-# Warning : Address pointed at port A is out of bound!
-# Time: 260000  Instance: heapsort_tb.heapsort.RAM_LEVEL_9.altsyncram_component.m_default.altsyncram_inst
-# End time: 17:45:43 on Sep 02,2020, Elapsed time: 0:04:16
-# Errors: 0, Warnings: 4
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/altera_primitives.v(293): $hold( posedge clk &&& sloaddata:2369 ps, asdata:2480 ps, 186 ps );
+#    Time: 2480 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\addr_U_6_reg[0] 
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2727 ps, d:2739 ps, 222 ps );
+#    Time: 2739 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_9|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2732 ps, d:2782 ps, 222 ps );
+#    Time: 2782 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_7|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2741 ps, d:2785 ps, 222 ps );
+#    Time: 2785 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_3|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2727 ps, d:2841 ps, 222 ps );
+#    Time: 2841 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_9|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2736 ps, d:2911 ps, 222 ps );
+#    Time: 2911 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_6|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2736 ps, d:2928 ps, 222 ps );
+#    Time: 2928 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_6|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2736 ps, d:2943 ps, 222 ps );
+#    Time: 2943 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_6|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# ** Error: /build/swbuild/SJ/nightly/18.1std/625/l64/work/modelsim/eda/sim_lib/cycloneive_atoms.v(4542): $hold( posedge clk &&& reset:2725 ps, d:2945 ps, 222 ps );
+#    Time: 2945 ps  Iteration: 1  Instance: /heapsort_tb/heapsort/\RAM_LEVEL_10|altsyncram_component|auto_generated|ram_block1a0 /addr_b_register
+# End time: 17:49:35 on Sep 04,2020, Elapsed time: 0:03:25
+# Errors: 720, Warnings: 1

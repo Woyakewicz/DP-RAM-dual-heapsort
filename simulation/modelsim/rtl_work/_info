@@ -9,13 +9,13 @@ z2
 cModel Technology
 Z0 dD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/simulation/modelsim
 vheapsort
-Z1 !s110 1599079286
+Z1 !s110 1599251737
 !i10b 1
-!s100 oV<oc4?IeKSHz7QQ=>6e11
-IE@[P7z3Cnz`k64?aHo;`02
+!s100 8Hn^a0^J9?3AmC4[b46203
+IbfnPz^Yj>eIDX<3meCVRN2
 Z2 VDg1SIo80bB@j0V0VzS_@n1
 R0
-w1599079152
+w1599251641
 8D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v
 FD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v
 L0 1
@@ -23,7 +23,7 @@ Z3 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z4 !s108 1599079286.000000
+Z4 !s108 1599251737.000000
 !s107 D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort|D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v|
 !i113 1
@@ -31,13 +31,13 @@ Z5 o-vlog01compat -work work
 !s92 -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort
 Z6 tCvgOpt 0
 vheapsort_tb
-!s110 1599079287
+R1
 !i10b 1
-!s100 N?nhF:aEm7T6@jX=@<iVZ1
-Ii4`<K7Od6coLKe;1`1Ihm3
+!s100 i]9VkK3X];A:_C44@PHIM1
+IMd0T@egGdYlh;KP@I52zP2
 R2
 R0
-w1599079277
+w1599154282
 8D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v
 FD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v
 L0 3
@@ -45,13 +45,36 @@ R3
 r1
 !s85 0
 31
-!s108 1599079287.000000
+R4
 !s107 D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench|D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench/heapsort_tb.v|
 !i113 1
 R5
 !s92 -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/test_bench
 R6
+vRAM_2_port_1
+R1
+!i10b 1
+!s100 T8kVHe2i^SO>Z^KA;Bf>=0
+II:>`:of=VaahV@=bmEDIl0
+R2
+R0
+w1599246506
+8D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM/RAM_2_port_1.v
+FD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM/RAM_2_port_1.v
+Z7 L0 39
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM/RAM_2_port_1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM|D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM/RAM_2_port_1.v|
+!i113 1
+R5
+!s92 -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM
+R6
+n@r@a@m_2_port_1
 vRAM_2_port_gen
 R1
 !i10b 1
@@ -62,7 +85,7 @@ R0
 w1597673665
 8D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
 FD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-L0 39
+R7
 R3
 r1
 !s85 0
@@ -78,11 +101,11 @@ n@r@a@m_2_port_gen
 vsorting_node
 R1
 !i10b 1
-!s100 zKlK:kR8iA_48Z1Xi_RLY3
-IVT^hIMjeI9ePMPd?2N8Km1
+!s100 jhL`kjb_B9bRP]aE[EKfd0
+IPWjNofUQTJ0NZL46O=^;C1
 R2
 R0
-w1598621901
+w1599154338
 8D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v
 FD:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v
 L0 1
