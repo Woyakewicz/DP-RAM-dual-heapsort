@@ -1,5 +1,5 @@
 Analysis & Synthesis report for heapsort
-Fri Sep 04 17:34:20 2020
+Tue Sep 08 15:36:17 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -107,15 +107,15 @@ refer to the applicable agreement for further details.
 +----------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                     ;
 +------------------------------------+---------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Fri Sep 04 17:34:20 2020       ;
+; Analysis & Synthesis Status        ; Successful - Tue Sep 08 15:36:17 2020       ;
 ; Quartus Prime Version              ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                      ; heapsort                                    ;
 ; Top-level Entity Name              ; heapsort                                    ;
 ; Family                             ; Cyclone IV E                                ;
-; Total logic elements               ; 1,822                                       ;
-;     Total combinational functions  ; 1,685                                       ;
-;     Dedicated logic registers      ; 795                                         ;
-; Total registers                    ; 795                                         ;
+; Total logic elements               ; 1,725                                       ;
+;     Total combinational functions  ; 1,588                                       ;
+;     Dedicated logic registers      ; 730                                         ;
+; Total registers                    ; 730                                         ;
 ; Total pins                         ; 36                                          ;
 ; Total virtual pins                 ; 0                                           ;
 ; Total memory bits                  ; 32,768                                      ;
@@ -269,20 +269,20 @@ refer to the applicable agreement for further details.
 +---------------------------------------------+-----------+
 ; Resource                                    ; Usage     ;
 +---------------------------------------------+-----------+
-; Estimated Total logic elements              ; 1,822     ;
+; Estimated Total logic elements              ; 1,725     ;
 ;                                             ;           ;
-; Total combinational functions               ; 1685      ;
+; Total combinational functions               ; 1588      ;
 ; Logic element usage by number of LUT inputs ;           ;
-;     -- 4 input functions                    ; 450       ;
-;     -- 3 input functions                    ; 1120      ;
-;     -- <=2 input functions                  ; 115       ;
+;     -- 4 input functions                    ; 440       ;
+;     -- 3 input functions                    ; 1093      ;
+;     -- <=2 input functions                  ; 55        ;
 ;                                             ;           ;
 ; Logic elements by mode                      ;           ;
-;     -- normal mode                          ; 1186      ;
-;     -- arithmetic mode                      ; 499       ;
+;     -- normal mode                          ; 1138      ;
+;     -- arithmetic mode                      ; 450       ;
 ;                                             ;           ;
-; Total registers                             ; 795       ;
-;     -- Dedicated logic registers            ; 795       ;
+; Total registers                             ; 730       ;
+;     -- Dedicated logic registers            ; 730       ;
 ;     -- I/O registers                        ; 0         ;
 ;                                             ;           ;
 ; I/O pins                                    ; 36        ;
@@ -291,9 +291,9 @@ refer to the applicable agreement for further details.
 ; Embedded Multiplier 9-bit elements          ; 0         ;
 ;                                             ;           ;
 ; Maximum fan-out node                        ; clk~input ;
-; Maximum fan-out                             ; 971       ;
-; Total fan-out                               ; 10712     ;
-; Average fan-out                             ; 3.93      ;
+; Maximum fan-out                             ; 906       ;
+; Total fan-out                               ; 10227     ;
+; Average fan-out                             ; 3.99      ;
 +---------------------------------------------+-----------+
 
 
@@ -302,7 +302,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-----------------+--------------+
 ; Compilation Hierarchy Node                ; Combinational ALUTs ; Dedicated Logic Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                  ; Entity Name     ; Library Name ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-----------------+--------------+
-; |heapsort                                 ; 1685 (468)          ; 795 (80)                  ; 32768       ; 0            ; 0       ; 0         ; 36   ; 0            ; |heapsort                                                                                            ; heapsort        ; work         ;
+; |heapsort                                 ; 1588 (467)          ; 730 (80)                  ; 32768       ; 0            ; 0       ; 0         ; 36   ; 0            ; |heapsort                                                                                            ; heapsort        ; work         ;
 ;    |RAM_2_port_1:RAM_LEVEL_1|             ; 0 (0)               ; 0 (0)                     ; 32          ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|RAM_2_port_1:RAM_LEVEL_1                                                                   ; RAM_2_port_1    ; work         ;
 ;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 32          ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|RAM_2_port_1:RAM_LEVEL_1|altsyncram:altsyncram_component                                   ; altsyncram      ; work         ;
 ;          |altsyncram_s7h2:auto_generated| ; 0 (0)               ; 0 (0)                     ; 32          ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|RAM_2_port_1:RAM_LEVEL_1|altsyncram:altsyncram_component|altsyncram_s7h2:auto_generated    ; altsyncram_s7h2 ; work         ;
@@ -336,16 +336,16 @@ refer to the applicable agreement for further details.
 ;    |RAM_2_port_gen:RAM_LEVEL_9|           ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|RAM_2_port_gen:RAM_LEVEL_9                                                                 ; RAM_2_port_gen  ; work         ;
 ;       |altsyncram:altsyncram_component|   ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|RAM_2_port_gen:RAM_LEVEL_9|altsyncram:altsyncram_component                                 ; altsyncram      ; work         ;
 ;          |altsyncram_6fh2:auto_generated| ; 0 (0)               ; 0 (0)                     ; 4096        ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|RAM_2_port_gen:RAM_LEVEL_9|altsyncram:altsyncram_component|altsyncram_6fh2:auto_generated  ; altsyncram_6fh2 ; work         ;
-;    |sorting_node:sorting_node_10|         ; 117 (117)           ; 88 (88)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_10                                                               ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_1|          ; 107 (107)           ; 61 (61)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_1                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_2|          ; 115 (115)           ; 60 (60)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_2                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_3|          ; 118 (118)           ; 63 (63)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_3                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_4|          ; 116 (116)           ; 66 (66)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_4                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_5|          ; 119 (119)           ; 69 (69)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_5                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_6|          ; 122 (122)           ; 72 (72)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_6                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_7|          ; 125 (125)           ; 75 (75)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_7                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_8|          ; 128 (128)           ; 78 (78)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_8                                                                ; sorting_node    ; work         ;
-;    |sorting_node:sorting_node_9|          ; 149 (149)           ; 81 (81)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_9                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_10|         ; 102 (102)           ; 77 (77)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_10                                                               ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_1|          ; 104 (104)           ; 59 (59)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_1                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_2|          ; 113 (113)           ; 57 (57)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_2                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_3|          ; 111 (111)           ; 59 (59)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_3                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_4|          ; 107 (107)           ; 61 (61)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_4                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_5|          ; 109 (109)           ; 63 (63)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_5                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_6|          ; 111 (111)           ; 65 (65)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_6                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_7|          ; 113 (113)           ; 67 (67)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_7                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_8|          ; 115 (115)           ; 69 (69)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_8                                                                ; sorting_node    ; work         ;
+;    |sorting_node:sorting_node_9|          ; 135 (135)           ; 71 (71)                   ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|sorting_node:sorting_node_9                                                                ; sorting_node    ; work         ;
 ;    |strobe_relative:fs_stb_rise|          ; 1 (1)               ; 2 (2)                     ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |heapsort|strobe_relative:fs_stb_rise                                                                ; strobe_relative ; work         ;
 +-------------------------------------------+---------------------+---------------------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------+-----------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -630,60 +630,50 @@ Encoding Type:  One-Hot
 +----------------------------------------------+-------+
 ; Statistic                                    ; Value ;
 +----------------------------------------------+-------+
-; Total registers                              ; 795   ;
-; Number of registers using Synchronous Clear  ; 400   ;
+; Total registers                              ; 730   ;
+; Number of registers using Synchronous Clear  ; 344   ;
 ; Number of registers using Synchronous Load   ; 144   ;
 ; Number of registers using Asynchronous Clear ; 0     ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 521   ;
+; Number of registers using Clock Enable       ; 456   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                        ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
-; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                              ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
-; 5:1                ; 2 bits    ; 6 LEs         ; 2 LEs                ; 4 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_1|counter_clear[0]  ;
-; 5:1                ; 3 bits    ; 9 LEs         ; 3 LEs                ; 6 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_2|counter_clear[0]  ;
-; 5:1                ; 4 bits    ; 12 LEs        ; 4 LEs                ; 8 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_3|counter_clear[1]  ;
-; 5:1                ; 5 bits    ; 15 LEs        ; 5 LEs                ; 10 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_4|counter_clear[3]  ;
-; 5:1                ; 6 bits    ; 18 LEs        ; 6 LEs                ; 12 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_5|counter_clear[2]  ;
-; 5:1                ; 7 bits    ; 21 LEs        ; 7 LEs                ; 14 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_6|counter_clear[4]  ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 8 LEs                ; 16 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_7|counter_clear[5]  ;
-; 5:1                ; 9 bits    ; 27 LEs        ; 9 LEs                ; 18 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_8|counter_clear[7]  ;
-; 5:1                ; 10 bits   ; 30 LEs        ; 10 LEs               ; 20 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_9|counter_clear[9]  ;
-; 5:1                ; 11 bits   ; 33 LEs        ; 11 LEs               ; 22 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_10|counter_clear[0] ;
-; 6:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_3|addr_L_reg[0]     ;
-; 6:1                ; 3 bits    ; 12 LEs        ; 3 LEs                ; 9 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_4|addr_L_reg[2]     ;
-; 6:1                ; 4 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_5|addr_L_reg[0]     ;
-; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_6|addr_L_reg[1]     ;
-; 6:1                ; 6 bits    ; 24 LEs        ; 6 LEs                ; 18 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_7|addr_L_reg[4]     ;
-; 6:1                ; 7 bits    ; 28 LEs        ; 7 LEs                ; 21 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_8|addr_L_reg[4]     ;
-; 6:1                ; 8 bits    ; 32 LEs        ; 8 LEs                ; 24 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_9|addr_L_reg[2]     ;
-; 6:1                ; 9 bits    ; 36 LEs        ; 9 LEs                ; 27 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_10|addr_L_reg[5]    ;
-; 8:1                ; 3 bits    ; 15 LEs        ; 3 LEs                ; 12 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_3|addr_U_reg[2]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_1|data_U_reg[13]    ;
-; 8:1                ; 2 bits    ; 10 LEs        ; 2 LEs                ; 8 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_2|addr_U_reg[0]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_2|data_U_reg[8]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_3|data_U_reg[6]     ;
-; 8:1                ; 4 bits    ; 20 LEs        ; 4 LEs                ; 16 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_4|addr_U_reg[1]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_4|data_U_reg[14]    ;
-; 8:1                ; 5 bits    ; 25 LEs        ; 5 LEs                ; 20 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_5|addr_U_reg[2]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_5|data_U_reg[1]     ;
-; 8:1                ; 6 bits    ; 30 LEs        ; 6 LEs                ; 24 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_6|addr_U_reg[2]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_6|data_U_reg[8]     ;
-; 8:1                ; 7 bits    ; 35 LEs        ; 7 LEs                ; 28 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_7|addr_U_reg[5]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_7|data_U_reg[9]     ;
-; 8:1                ; 8 bits    ; 40 LEs        ; 8 LEs                ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_8|addr_U_reg[0]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_8|data_U_reg[14]    ;
-; 8:1                ; 9 bits    ; 45 LEs        ; 9 LEs                ; 36 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_9|addr_U_reg[2]     ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_9|data_U_reg[15]    ;
-; 8:1                ; 10 bits   ; 50 LEs        ; 10 LEs               ; 40 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_10|addr_U_reg[2]    ;
-; 8:1                ; 16 bits   ; 80 LEs        ; 32 LEs               ; 48 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_10|data_U_reg[15]   ;
-; 9:1                ; 2 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_1|addr_L_reg[0]     ;
-+--------------------+-----------+---------------+----------------------+------------------------+------------+---------------------------------------------------------+
++---------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Multiplexer Restructuring Statistics (Restructuring Performed)                                                                                                      ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
+; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                            ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
+; 6:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_3|addr_L_reg[1]   ;
+; 6:1                ; 3 bits    ; 12 LEs        ; 3 LEs                ; 9 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_4|addr_L_reg[2]   ;
+; 6:1                ; 4 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_5|addr_L_reg[0]   ;
+; 6:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_6|addr_L_reg[2]   ;
+; 6:1                ; 6 bits    ; 24 LEs        ; 6 LEs                ; 18 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_7|addr_L_reg[5]   ;
+; 6:1                ; 7 bits    ; 28 LEs        ; 7 LEs                ; 21 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_8|addr_L_reg[3]   ;
+; 6:1                ; 8 bits    ; 32 LEs        ; 8 LEs                ; 24 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_9|addr_L_reg[2]   ;
+; 6:1                ; 9 bits    ; 36 LEs        ; 9 LEs                ; 27 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_10|addr_L_reg[6]  ;
+; 7:1                ; 3 bits    ; 12 LEs        ; 3 LEs                ; 9 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_3|addr_U_reg[1]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_1|data_U_reg[0]   ;
+; 7:1                ; 2 bits    ; 8 LEs         ; 2 LEs                ; 6 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_2|addr_U_reg[0]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_2|data_U_reg[12]  ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_3|data_U_reg[2]   ;
+; 7:1                ; 4 bits    ; 16 LEs        ; 4 LEs                ; 12 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_4|addr_U_reg[0]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_4|data_U_reg[14]  ;
+; 7:1                ; 5 bits    ; 20 LEs        ; 5 LEs                ; 15 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_5|addr_U_reg[0]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_5|data_U_reg[1]   ;
+; 7:1                ; 6 bits    ; 24 LEs        ; 6 LEs                ; 18 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_6|addr_U_reg[2]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_6|data_U_reg[3]   ;
+; 7:1                ; 7 bits    ; 28 LEs        ; 7 LEs                ; 21 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_7|addr_U_reg[5]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_7|data_U_reg[10]  ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 8 LEs                ; 24 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_8|addr_U_reg[6]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_8|data_U_reg[9]   ;
+; 7:1                ; 9 bits    ; 36 LEs        ; 9 LEs                ; 27 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_9|addr_U_reg[5]   ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_9|data_U_reg[1]   ;
+; 7:1                ; 10 bits   ; 40 LEs        ; 10 LEs               ; 30 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_10|addr_U_reg[8]  ;
+; 7:1                ; 16 bits   ; 64 LEs        ; 32 LEs               ; 32 LEs                 ; Yes        ; |heapsort|sorting_node:sorting_node_10|data_U_reg[10] ;
+; 9:1                ; 2 bits    ; 12 LEs        ; 6 LEs                ; 6 LEs                  ; Yes        ; |heapsort|sorting_node:sorting_node_1|addr_L_reg[1]   ;
++--------------------+-----------+---------------+----------------------+------------------------+------------+-------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -1891,26 +1881,23 @@ Note: In order to hide this table in the UI and the text report file, please set
 ; Type                  ; Count                       ;
 +-----------------------+-----------------------------+
 ; boundary_port         ; 36                          ;
-; cycloneiii_ff         ; 795                         ;
-;     ENA               ; 321                         ;
-;     ENA SCLR          ; 56                          ;
+; cycloneiii_ff         ; 730                         ;
+;     ENA               ; 312                         ;
 ;     ENA SCLR SLD      ; 144                         ;
 ;     SCLR              ; 200                         ;
 ;     plain             ; 74                          ;
-; cycloneiii_lcell_comb ; 1685                        ;
-;     arith             ; 499                         ;
-;         2 data inputs ; 49                          ;
+; cycloneiii_lcell_comb ; 1588                        ;
+;     arith             ; 450                         ;
 ;         3 data inputs ; 450                         ;
-;     normal            ; 1186                        ;
+;     normal            ; 1138                        ;
 ;         0 data inputs ; 1                           ;
-;         1 data inputs ; 7                           ;
-;         2 data inputs ; 58                          ;
-;         3 data inputs ; 670                         ;
-;         4 data inputs ; 450                         ;
+;         2 data inputs ; 54                          ;
+;         3 data inputs ; 643                         ;
+;         4 data inputs ; 440                         ;
 ; cycloneiii_ram_block  ; 176                         ;
 ;                       ;                             ;
-; Max LUT depth         ; 60.50                       ;
-; Average LUT depth     ; 30.77                       ;
+; Max LUT depth         ; 60.60                       ;
+; Average LUT depth     ; 33.08                       ;
 +-----------------------+-----------------------------+
 
 
@@ -1919,7 +1906,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:03     ;
+; Top            ; 00:00:02     ;
 +----------------+--------------+
 
 
@@ -1929,7 +1916,7 @@ Note: In order to hide this table in the UI and the text report file, please set
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Synthesis
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Fri Sep 04 17:34:02 2020
+    Info: Processing started: Tue Sep 08 15:36:01 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off heapsort -c heapsort
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 6 of the 6 processors detected
@@ -1991,19 +1978,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_s7h2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_s7h2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_s7h2" for hierarchy "RAM_2_port_1:RAM_LEVEL_1|altsyncram:altsyncram_component|altsyncram_s7h2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_1" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 488
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 2 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 2 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (2) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_2" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 505
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_2|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_2|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2040,19 +2026,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_28h2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_28h2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_28h2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_2|altsyncram:altsyncram_component|altsyncram_28h2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_2" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 529
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 3 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 3 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (3) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_3" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 546
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_3|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_3|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2089,19 +2074,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_88h2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_88h2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_88h2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_3|altsyncram:altsyncram_component|altsyncram_88h2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_3" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 568
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 4 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 4 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (4) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_4" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 584
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_4|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_4|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2138,19 +2122,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_i8h2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_i8h2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_i8h2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_4|altsyncram:altsyncram_component|altsyncram_i8h2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_4" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 606
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 5 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 5 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (5) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_5" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 622
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_5|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_5|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2187,19 +2170,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_ibh2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_ibh2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_ibh2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_5|altsyncram:altsyncram_component|altsyncram_ibh2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_5" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 644
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 6 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 6 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (6) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_6" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 660
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_6|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_6|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2236,19 +2218,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_gbh2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_gbh2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_gbh2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_6|altsyncram:altsyncram_component|altsyncram_gbh2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_6" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 682
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 7 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 7 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (7) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_7" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 698
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_7|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_7|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2285,19 +2266,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_sbh2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_sbh2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_sbh2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_7|altsyncram:altsyncram_component|altsyncram_sbh2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_7" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 720
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 8 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 8 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (8) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_8" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 736
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_8|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_8|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2334,19 +2314,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_0fh2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_0fh2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_0fh2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_8|altsyncram:altsyncram_component|altsyncram_0fh2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_8" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 758
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 9 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 9 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (9) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_9" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 774
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_9|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_9|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2383,19 +2362,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_6fh2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_6fh2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_6fh2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_9|altsyncram:altsyncram_component|altsyncram_6fh2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_9" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 796
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 10 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 10 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (10) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_10" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 812
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_10|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_10|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2432,19 +2410,18 @@ Info (12021): Found 1 design units, including 1 entities, in source file db/alts
     Info (12023): Found entity 1: altsyncram_chh2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/db/altsyncram_chh2.tdf Line: 27
 Info (12128): Elaborating entity "altsyncram_chh2" for hierarchy "RAM_2_port_gen:RAM_LEVEL_10|altsyncram:altsyncram_component|altsyncram_chh2:auto_generated" File: c:/intelfpga_lite/18.1/quartus/libraries/megafunctions/altsyncram.tdf Line: 791
 Info (12128): Elaborating entity "sorting_node" for hierarchy "sorting_node:sorting_node_10" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 834
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(55): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 55
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(56): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 56
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(59): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 59
-Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(64): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 64
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(106): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 106
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(148): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 148
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(173): truncated value with size 11 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 173
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(185): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 185
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(186): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 186
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(200): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 200
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(220): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 220
-Warning (10230): Verilog HDL assignment warning at sorting_node.v(230): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 230
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(53): object "address_updated_out_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 53
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(54): object "address_updated_in_reg" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 54
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(57): object "upper_updated" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 57
+Warning (10036): Verilog HDL or VHDL warning at sorting_node.v(62): object "swap_flag" assigned a value but never read File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 62
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(129): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 129
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(154): truncated value with size 11 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 154
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(166): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 166
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(167): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 167
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(181): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 181
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(182): truncated value with size 32 to match size of target (1) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 182
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(201): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 201
+Warning (10230): Verilog HDL assignment warning at sorting_node.v(211): truncated value with size 32 to match size of target (11) File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/sorting_node/sorting_node.v Line: 211
 Info (12128): Elaborating entity "RAM_2_port_gen" for hierarchy "RAM_2_port_gen:RAM_LEVEL_11" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v Line: 850
 Info (12128): Elaborating entity "altsyncram" for hierarchy "RAM_2_port_gen:RAM_LEVEL_11|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
 Info (12130): Elaborated megafunction instantiation "RAM_2_port_gen:RAM_LEVEL_11|altsyncram:altsyncram_component" File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v Line: 99
@@ -2504,16 +2481,16 @@ Info (17049): 25 registers lost all their fanouts during netlist optimizations.
 Info (144001): Generated suppressed messages file D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/output_files/heapsort.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
-Info (21057): Implemented 2370 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2273 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 20 input pins
     Info (21059): Implemented 16 output pins
-    Info (21061): Implemented 2158 logic cells
+    Info (21061): Implemented 2061 logic cells
     Info (21064): Implemented 176 RAM segments
-Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 176 warnings
-    Info: Peak virtual memory: 4854 megabytes
-    Info: Processing ended: Fri Sep 04 17:34:20 2020
-    Info: Elapsed time: 00:00:18
-    Info: Total CPU time (on all processors): 00:00:25
+Info: Quartus Prime Analysis & Synthesis was successful. 0 errors, 166 warnings
+    Info: Peak virtual memory: 4830 megabytes
+    Info: Processing ended: Tue Sep 08 15:36:17 2020
+    Info: Elapsed time: 00:00:16
+    Info: Total CPU time (on all processors): 00:00:26
 
 
 +------------------------------------------+

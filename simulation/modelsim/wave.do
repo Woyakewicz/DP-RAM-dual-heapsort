@@ -102,6 +102,7 @@ add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/he
 add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/wren_U_reg
 add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/update_out_reg
 add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/swap_LN
+add wave -noupdate -expand -group sorting_node_1 /heapsort_tb/heapsort/sorting_node_1/counter_clear
 add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/left
 add wave -noupdate -radix unsigned /heapsort_tb/heapsort/sorting_node_1/swap_flag
 add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/clk
@@ -276,7 +277,7 @@ add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/stb_out
 add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/stb_reg
 add wave -noupdate -group fs_stb_rise /heapsort_tb/heapsort/fs_stb_rise/stb_in_reg
 TreeUpdate [SetDefaultTree]
-WaveRestoreCursors {{Cursor 1} {821972 ps} 0}
+WaveRestoreCursors {{Cursor 1} {253013 ps} 0}
 quietly wave cursor active 1
 configure wave -namecolwidth 172
 configure wave -valuecolwidth 100
@@ -292,4 +293,4 @@ configure wave -griddelta 40
 configure wave -timeline 0
 configure wave -timelineunits ns
 update
-WaveRestoreZoom {259785478 ps} {260279826 ps}
+WaveRestoreZoom {0 ps} {3954784 ps}

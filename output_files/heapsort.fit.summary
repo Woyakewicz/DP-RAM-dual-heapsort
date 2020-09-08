@@ -1,14 +1,14 @@
-Fitter Status : Successful - Fri Sep 04 17:34:47 2020
+Fitter Status : Successful - Tue Sep 08 15:36:40 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : heapsort
 Top-level Entity Name : heapsort
 Family : Cyclone IV E
 Device : EP4CE115F29C7
 Timing Models : Final
-Total logic elements : 1,744 / 114,480 ( 2 % )
-    Total combinational functions : 1,685 / 114,480 ( 1 % )
-    Dedicated logic registers : 795 / 114,480 ( < 1 % )
-Total registers : 795
+Total logic elements : 1,655 / 114,480 ( 1 % )
+    Total combinational functions : 1,588 / 114,480 ( 1 % )
+    Dedicated logic registers : 730 / 114,480 ( < 1 % )
+Total registers : 730
 Total pins : 36 / 529 ( 7 % )
 Total virtual pins : 0
 Total memory bits : 32,768 / 3,981,312 ( < 1 % )

@@ -5,6 +5,7 @@ if {[file exists rtl_work]} {
 vlib rtl_work
 vmap work rtl_work
 
+vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/RAM/RAM_2_port_1.v}
 vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/RAM_2_port_gen/RAM_2_port_gen.v}
 vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/files/utils/strobe_relative.v}
 vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort/heapsort.v}

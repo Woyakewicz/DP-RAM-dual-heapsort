@@ -49,8 +49,6 @@ module sorting_node	 #(parameter LEVEL = 2,
 	reg wren_L_reg = 0;
 	reg wren_U_reg = 0;
 	
-	reg [LEVEL:0]counter_clear = 0; 
-	
 	reg update_out_reg = 0;
 	reg address_updated_out_reg = 0;
 	reg [LEVEL-1:0]address_updated_in_reg = 0;
@@ -74,7 +72,6 @@ module sorting_node	 #(parameter LEVEL = 2,
 			data_L_reg <= 0;
 			addr_L_reg <= 0;
 			wren_L_reg <= 0;
-			counter_clear <= 0;
 			update_out_reg <=0;
 		end else
 		begin
@@ -92,30 +89,14 @@ module sorting_node	 #(parameter LEVEL = 2,
 						data_L_reg <= 0;
 						addr_L_reg <= 0;
 						wren_L_reg <= 0;
-						counter_clear <= 0;
 						address_updated_out_reg <= 0;
 					end
 					else
 					begin
 						SM_sorting <= Initial_State;
-						if (counter_clear < LENGTH)
-						begin
-							data_L_reg <= 0;
-							addr_L_reg <= 0;
-							wren_L_reg <= 1;
-							counter_clear <= counter_clear + 1;
-						end
-						else
-						begin
-							data_U_reg <= 0;
-							addr_U_reg <= 0;
-							wren_U_reg <= 0;
-							data_L_reg <= 0;
-							addr_L_reg <= 0;
-							wren_L_reg <= 0;
-							counter_clear <= 0;
-							address_updated_out_reg <= 0;
-						end
+						data_L_reg <= 0;
+						addr_L_reg <= 0;
+						wren_L_reg <= 1;
 					end
 				end
 				
