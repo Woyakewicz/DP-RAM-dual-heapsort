@@ -60,7 +60,7 @@ set_global_assignment -name EDA_TEST_BENCH_NAME heapsort_tb -section_id eda_simu
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id heapsort_tb
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME heapsort_tb -section_id heapsort_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE files/test_bench/heapsort_tb.v -section_id heapsort_tb
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT simulation/modelsim/wave.do -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_SETUP_SCRIPT simulation/modelsim/heapsort_dual_wave.do -section_id eda_simulation
 set_global_assignment -name VERILOG_FILE files/RAM/RAM_2_port_1.v
 set_global_assignment -name VERILOG_FILE files/utils/RAM_2_port_gen/RAM_2_port_gen.v
 set_global_assignment -name QIP_FILE files/utils/RAM_2_port_gen/RAM_2_port_gen.qip
@@ -69,4 +69,6 @@ set_global_assignment -name VERILOG_FILE heapsort.v
 set_global_assignment -name VERILOG_FILE files/sorting_node/sorting_node.v
 set_global_assignment -name QIP_FILE absolute_value.qip
 set_global_assignment -name QIP_FILE compare_in.qip
+set_global_assignment -name VERILOG_FILE files/translation_layer/translation_layer.v
+set_global_assignment -name VERILOG_FILE files/sorting_node/sorting_node_level_1.v
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

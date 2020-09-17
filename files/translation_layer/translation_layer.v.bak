@@ -1,0 +1,7 @@
+module translation_layer #(parameter LEVEL = 2,
+									parameter WIDTH = 15,
+									parameter LENGTH = 4)
+(
+	input [WIDTH:0]q_u,
+	
+	
