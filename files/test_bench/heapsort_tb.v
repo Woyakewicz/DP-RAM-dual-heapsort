@@ -17,13 +17,13 @@ module heapsort_tb (
 		f3 =   $fopen("../../files/data/rand_lvl_10.hex","rb");
 //		f4 =   $fopen("../Signal_declipper_1ch_top_out.hex","wb");
 
-		#220;
+		#200;
 		rst = 0;
 		en_rec_in = 1;
 	end
 	
 	always #10 clk = ~clk;
-	always #20 fs = ~fs;
+	always #40 fs = ~fs;
 
 	
 	//wire en_rec_in;

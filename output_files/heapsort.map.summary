@@ -1,12 +1,12 @@
-Analysis & Synthesis Status : Successful - Wed Sep 16 16:58:17 2020
+Analysis & Synthesis Status : Successful - Tue Oct 06 13:08:10 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : heapsort
 Top-level Entity Name : heapsort
 Family : Cyclone IV E
-Total logic elements : 1,825
-    Total combinational functions : 1,808
-    Dedicated logic registers : 630
-Total registers : 630
+Total logic elements : 2,190
+    Total combinational functions : 2,173
+    Dedicated logic registers : 642
+Total registers : 642
 Total pins : 36
 Total virtual pins : 0
 Total memory bits : 32,768

@@ -12,89 +12,89 @@
 # 
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/RAM {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/RAM/RAM_2_port_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:55 on Sep 16,2020
+# Start time: 13:11:27 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/RAM" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/RAM/RAM_2_port_1.v 
 # -- Compiling module RAM_2_port_1
 # 
 # Top level modules:
 # 	RAM_2_port_1
-# End time: 16:56:55 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 13:11:27 on Oct 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:55 on Sep 16,2020
+# Start time: 13:11:27 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v 
 # -- Compiling module RAM_2_port_gen
 # 
 # Top level modules:
 # 	RAM_2_port_gen
-# End time: 16:56:55 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 13:11:28 on Oct 06,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/strobe_relative.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:55 on Sep 16,2020
+# Start time: 13:11:28 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/strobe_relative.v 
 # -- Compiling module strobe_relative
 # 
 # Top level modules:
 # 	strobe_relative
-# End time: 16:56:55 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 13:11:28 on Oct 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:55 on Sep 16,2020
+# Start time: 13:11:28 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v 
 # -- Compiling module heapsort
 # 
 # Top level modules:
 # 	heapsort
-# End time: 16:56:55 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 13:11:28 on Oct 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:55 on Sep 16,2020
+# Start time: 13:11:28 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v 
 # -- Compiling module sorting_node
 # 
 # Top level modules:
 # 	sorting_node
-# End time: 16:56:55 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 13:11:28 on Oct 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:55 on Sep 16,2020
+# Start time: 13:11:28 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v 
 # -- Compiling module translation_layer
 # 
 # Top level modules:
 # 	translation_layer
-# End time: 16:56:56 on Sep 16,2020, Elapsed time: 0:00:01
+# End time: 13:11:28 on Oct 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node_level_1.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:56 on Sep 16,2020
+# Start time: 13:11:28 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node_level_1.v 
 # -- Compiling module sorting_node_level_1
 # 
 # Top level modules:
 # 	sorting_node_level_1
-# End time: 16:56:56 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 13:11:28 on Oct 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 # vlog -vlog01compat -work work +incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/test_bench {D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/test_bench/heapsort_tb.v}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 16:56:56 on Sep 16,2020
+# Start time: 13:11:28 on Oct 06,2020
 # vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/test_bench" D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/test_bench/heapsort_tb.v 
 # -- Compiling module heapsort_tb
 # 
 # Top level modules:
 # 	heapsort_tb
-# End time: 16:56:56 on Sep 16,2020, Elapsed time: 0:00:00
+# End time: 13:11:29 on Oct 06,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  heapsort_tb
 # vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" heapsort_tb 
-# Start time: 16:56:56 on Sep 16,2020
+# Start time: 13:11:29 on Oct 06,2020
 # Loading work.heapsort_tb
 # Loading work.heapsort
 # Loading work.strobe_relative
@@ -109,227 +109,25 @@
 # Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
 # ** Warning: (vsim-PLI-3691) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/test_bench/heapsort_tb.v(35): Expected a system task, not a system function '$fscanf'.
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/test_bench/heapsort_tb.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(588): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/RAM/RAM_2_port_1.v(41).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(593): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/RAM/RAM_2_port_1.v(41).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_1 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/RAM/RAM_2_port_1.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(605): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node_level_1.v(36).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(610): [PCDPC] - Port size (1) does not match connection size (32) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node_level_1.v(36).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_1 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node_level_1.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(683): [PCDPC] - Port size (1) does not match connection size (2) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(683): [PCDPC] - Port size (1) does not match connection size (2) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(683): [PCDPC] - Port size (1) does not match connection size (2) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(683): [PCDPC] - Port size (2) does not match connection size (3) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(683): [PCDPC] - Port size (1) does not match connection size (2) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_2 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(711): [PCDPC] - Port size (1) does not match connection size (2) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_3_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(711): [PCDPC] - Port size (1) does not match connection size (2) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_3_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(727): [PCDPC] - Port size (1) does not match connection size (2) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_3_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(727): [PCDPC] - Port size (1) does not match connection size (2) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_3_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(743): [PCDPC] - Port size (1) does not match connection size (2) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(743): [PCDPC] - Port size (1) does not match connection size (2) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(743): [PCDPC] - Port size (2) does not match connection size (3) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(759): [PCDPC] - Port size (2) does not match connection size (3) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(759): [PCDPC] - Port size (2) does not match connection size (3) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(759): [PCDPC] - Port size (2) does not match connection size (3) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(759): [PCDPC] - Port size (3) does not match connection size (4) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(759): [PCDPC] - Port size (2) does not match connection size (3) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_3 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(786): [PCDPC] - Port size (2) does not match connection size (3) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_4_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(786): [PCDPC] - Port size (2) does not match connection size (3) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_4_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(802): [PCDPC] - Port size (2) does not match connection size (3) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_4_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(802): [PCDPC] - Port size (2) does not match connection size (3) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_4_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(818): [PCDPC] - Port size (2) does not match connection size (3) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(818): [PCDPC] - Port size (2) does not match connection size (3) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(818): [PCDPC] - Port size (3) does not match connection size (4) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(834): [PCDPC] - Port size (3) does not match connection size (4) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(834): [PCDPC] - Port size (3) does not match connection size (4) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(834): [PCDPC] - Port size (3) does not match connection size (4) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(834): [PCDPC] - Port size (4) does not match connection size (5) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(834): [PCDPC] - Port size (3) does not match connection size (4) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_4 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(861): [PCDPC] - Port size (3) does not match connection size (4) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_5_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(861): [PCDPC] - Port size (3) does not match connection size (4) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_5_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(877): [PCDPC] - Port size (3) does not match connection size (4) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_5_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(877): [PCDPC] - Port size (3) does not match connection size (4) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_5_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(893): [PCDPC] - Port size (3) does not match connection size (4) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(893): [PCDPC] - Port size (3) does not match connection size (4) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(893): [PCDPC] - Port size (4) does not match connection size (5) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(910): [PCDPC] - Port size (4) does not match connection size (5) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(910): [PCDPC] - Port size (4) does not match connection size (5) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(910): [PCDPC] - Port size (4) does not match connection size (5) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(910): [PCDPC] - Port size (5) does not match connection size (6) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(910): [PCDPC] - Port size (4) does not match connection size (5) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_5 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(937): [PCDPC] - Port size (4) does not match connection size (5) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_6_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(937): [PCDPC] - Port size (4) does not match connection size (5) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_6_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(953): [PCDPC] - Port size (4) does not match connection size (5) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_6_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(953): [PCDPC] - Port size (4) does not match connection size (5) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_6_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(969): [PCDPC] - Port size (4) does not match connection size (5) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(969): [PCDPC] - Port size (4) does not match connection size (5) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(969): [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(985): [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(985): [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(985): [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(985): [PCDPC] - Port size (6) does not match connection size (7) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(985): [PCDPC] - Port size (5) does not match connection size (6) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_6 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1012): [PCDPC] - Port size (5) does not match connection size (6) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_7_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1012): [PCDPC] - Port size (5) does not match connection size (6) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_7_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1028): [PCDPC] - Port size (5) does not match connection size (6) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_7_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1028): [PCDPC] - Port size (5) does not match connection size (6) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_7_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1044): [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1044): [PCDPC] - Port size (5) does not match connection size (6) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1044): [PCDPC] - Port size (6) does not match connection size (7) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1061): [PCDPC] - Port size (6) does not match connection size (7) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1061): [PCDPC] - Port size (6) does not match connection size (7) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1061): [PCDPC] - Port size (6) does not match connection size (7) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1061): [PCDPC] - Port size (7) does not match connection size (8) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1061): [PCDPC] - Port size (6) does not match connection size (7) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_7 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1088): [PCDPC] - Port size (6) does not match connection size (7) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_8_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1088): [PCDPC] - Port size (6) does not match connection size (7) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_8_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1104): [PCDPC] - Port size (6) does not match connection size (7) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_8_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1104): [PCDPC] - Port size (6) does not match connection size (7) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_8_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1120): [PCDPC] - Port size (6) does not match connection size (7) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1120): [PCDPC] - Port size (6) does not match connection size (7) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1120): [PCDPC] - Port size (7) does not match connection size (8) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1136): [PCDPC] - Port size (7) does not match connection size (8) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1136): [PCDPC] - Port size (7) does not match connection size (8) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1136): [PCDPC] - Port size (7) does not match connection size (8) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1136): [PCDPC] - Port size (8) does not match connection size (9) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1136): [PCDPC] - Port size (7) does not match connection size (8) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_8 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1163): [PCDPC] - Port size (7) does not match connection size (8) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_9_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1163): [PCDPC] - Port size (7) does not match connection size (8) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_9_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1179): [PCDPC] - Port size (7) does not match connection size (8) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_9_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1179): [PCDPC] - Port size (7) does not match connection size (8) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_9_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1195): [PCDPC] - Port size (7) does not match connection size (8) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1195): [PCDPC] - Port size (7) does not match connection size (8) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1195): [PCDPC] - Port size (8) does not match connection size (9) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1211): [PCDPC] - Port size (8) does not match connection size (9) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1211): [PCDPC] - Port size (8) does not match connection size (9) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1211): [PCDPC] - Port size (8) does not match connection size (9) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1211): [PCDPC] - Port size (9) does not match connection size (10) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1211): [PCDPC] - Port size (8) does not match connection size (9) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_9 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1238): [PCDPC] - Port size (8) does not match connection size (9) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_10_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1238): [PCDPC] - Port size (8) does not match connection size (9) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_10_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1254): [PCDPC] - Port size (8) does not match connection size (9) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_10_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1254): [PCDPC] - Port size (8) does not match connection size (9) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_10_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1270): [PCDPC] - Port size (8) does not match connection size (9) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(6).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1270): [PCDPC] - Port size (8) does not match connection size (9) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(13).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1270): [PCDPC] - Port size (9) does not match connection size (10) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v(19).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/translation_layer_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/translation_layer/translation_layer.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1287): [PCDPC] - Port size (9) does not match connection size (10) for port 'addr_U'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(12).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1292): [PCDPC] - Port size (9) does not match connection size (10) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1287): [PCDPC] - Port size (9) does not match connection size (11) for port 'addr_L'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(19).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1292): [PCDPC] - Port size (9) does not match connection size (10) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1287): [PCDPC] - Port size (9) does not match connection size (11) for port 'addr_R'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(26).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1287): [PCDPC] - Port size (10) does not match connection size (11) for port 'address_updated_out'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(35).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1287): [PCDPC] - Port size (9) does not match connection size (10) for port 'address_updated_in'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v(36).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/sorting_node_10 File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1314): [PCDPC] - Port size (9) does not match connection size (11) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1319): [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(47).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1314): [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(47).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1319): [PCDPC] - Port size (16) does not match connection size (32) for port 'data_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(45).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1314): [PCDPC] - Port size (16) does not match connection size (32) for port 'data_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(45).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1319): [PCDPC] - Port size (9) does not match connection size (10) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1314): [PCDPC] - Port size (9) does not match connection size (11) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_L File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1330): [PCDPC] - Port size (9) does not match connection size (11) for port 'address_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(42).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1335): [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(47).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1330): [PCDPC] - Port size (1) does not match connection size (32) for port 'wren_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(47).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1335): [PCDPC] - Port size (16) does not match connection size (32) for port 'data_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(45).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1330): [PCDPC] - Port size (16) does not match connection size (32) for port 'data_a'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(45).
-#    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
-# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1330): [PCDPC] - Port size (9) does not match connection size (11) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
+# ** Warning: (vsim-3015) D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v(1335): [PCDPC] - Port size (9) does not match connection size (10) for port 'address_b'. The port definition is at: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v(43).
 #    Time: 0 ps  Iteration: 0  Instance: /heapsort_tb/heapsort/RAM_LEVEL_11_R File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/utils/RAM_2_port_gen/RAM_2_port_gen.v
 # 
 # do D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/simulation/modelsim/heapsort_dual_wave.do
@@ -392,6 +190,9 @@
 # add wave -noupdate -expand -group sorting_node_1 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/q_L
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/aux_q_L
+# add wave -noupdate -expand -group sorting_node_1 /heapsort_tb/heapsort/addr_U_2
+# add wave -noupdate -expand -group sorting_node_1 /heapsort_tb/heapsort/update_out_2
+# add wave -noupdate -expand -group sorting_node_1 /heapsort_tb/heapsort/data_U_2
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/data_L
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/addr_L
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/wren_L
@@ -404,8 +205,8 @@
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/initialize
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/update_out
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/update_in
-# add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/address_updated_out
-# add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/address_updated_in
+# add wave -noupdate -expand -group sorting_node_1 -radix unsigned -childformat {{{/heapsort_tb/heapsort/sorting_node_1/address_updated_out[0]} -radix unsigned}} -subitemconfig {{/heapsort_tb/heapsort/sorting_node_1/address_updated_out[0]} {-height 15 -radix unsigned}} /heapsort_tb/heapsort/sorting_node_1/address_updated_out
+# add wave -noupdate -expand -group sorting_node_1 -radix unsigned -childformat {{{/heapsort_tb/heapsort/sorting_node_1/address_updated_in[0]} -radix unsigned}} -subitemconfig {{/heapsort_tb/heapsort/sorting_node_1/address_updated_in[0]} {-height 15 -radix unsigned}} /heapsort_tb/heapsort/sorting_node_1/address_updated_in
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/SM_sorting
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/addr_R_reg
@@ -421,13 +222,16 @@
 # add wave -noupdate -expand -group sorting_node_1 -radix unsigned /heapsort_tb/heapsort/sorting_node_1/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/clk
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/rst
+# add wave -noupdate -expand -group sorting_node_2 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/q_U
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/aux_q_U
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/data_U
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_U
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/wren_U
-# add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/q_L
-# add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/aux_q_L
+# add wave -noupdate -expand -group sorting_node_2 -divider {Lower Records}
+# add wave -noupdate -expand -group sorting_node_2 -radix unsigned -childformat {{{/heapsort_tb/heapsort/sorting_node_2/q_L[15]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[14]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[13]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[12]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[11]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[10]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[9]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[8]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[7]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[6]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[5]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[4]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[3]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[2]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[1]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/q_L[0]} -radix unsigned}} -subitemconfig {{/heapsort_tb/heapsort/sorting_node_2/q_L[15]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[14]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[13]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[12]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[11]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[10]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[9]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[8]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[7]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[6]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[5]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[4]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[3]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[2]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[1]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/q_L[0]} {-height 15 -radix unsigned}} /heapsort_tb/heapsort/sorting_node_2/q_L
+# add wave -noupdate -expand -group sorting_node_2 -radix unsigned -childformat {{{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[15]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[14]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[13]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[12]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[11]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[10]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[9]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[8]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[7]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[6]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[5]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[4]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[3]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[2]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[1]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[0]} -radix unsigned}} -subitemconfig {{/heapsort_tb/heapsort/sorting_node_2/aux_q_L[15]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[14]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[13]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[12]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[11]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[10]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[9]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[8]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[7]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[6]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[5]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[4]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[3]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[2]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[1]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_2/aux_q_L[0]} {-height 15 -radix unsigned}} /heapsort_tb/heapsort/sorting_node_2/aux_q_L
+# add wave -noupdate -expand -group sorting_node_2 /heapsort_tb/heapsort/addr_U_3
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/data_L
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_L
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/wren_L
@@ -436,11 +240,13 @@
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/data_R
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_R
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/wren_R
+# add wave -noupdate -expand -group sorting_node_2 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/initialize
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/update_out
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/update_in
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/address_updated_out
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/address_updated_in
+# add wave -noupdate -expand -group sorting_node_2 -divider {SM sorting}
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/SM_sorting
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/addr_R_reg
@@ -456,11 +262,13 @@
 # add wave -noupdate -expand -group sorting_node_2 -radix unsigned /heapsort_tb/heapsort/sorting_node_2/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/clk
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/rst
+# add wave -noupdate -expand -group sorting_node_3 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/q_U
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/aux_q_U
-# add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/data_U
+# add wave -noupdate -expand -group sorting_node_3 -radix unsigned -childformat {{{/heapsort_tb/heapsort/sorting_node_3/data_U[15]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[14]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[13]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[12]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[11]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[10]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[9]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[8]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[7]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[6]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[5]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[4]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[3]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[2]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[1]} -radix unsigned} {{/heapsort_tb/heapsort/sorting_node_3/data_U[0]} -radix unsigned}} -subitemconfig {{/heapsort_tb/heapsort/sorting_node_3/data_U[15]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[14]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[13]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[12]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[11]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[10]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[9]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[8]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[7]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[6]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[5]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[4]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[3]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[2]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[1]} {-height 15 -radix unsigned} {/heapsort_tb/heapsort/sorting_node_3/data_U[0]} {-height 15 -radix unsigned}} /heapsort_tb/heapsort/sorting_node_3/data_U
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_U
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/wren_U
+# add wave -noupdate -expand -group sorting_node_3 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/q_L
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/aux_q_L
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/data_L
@@ -471,11 +279,13 @@
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/data_R
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_R
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/wren_R
+# add wave -noupdate -expand -group sorting_node_3 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/initialize
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/update_out
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/update_in
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/address_updated_out
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/address_updated_in
+# add wave -noupdate -expand -group sorting_node_3 -divider {SM sorting}
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/SM_sorting
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/addr_R_reg
@@ -491,11 +301,13 @@
 # add wave -noupdate -expand -group sorting_node_3 -radix unsigned /heapsort_tb/heapsort/sorting_node_3/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/clk
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/rst
+# add wave -noupdate -expand -group sorting_node_4 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/q_U
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/aux_q_U
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/data_U
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_U
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/wren_U
+# add wave -noupdate -expand -group sorting_node_4 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/q_L
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/aux_q_L
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/data_L
@@ -506,11 +318,13 @@
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/data_R
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_R
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/wren_R
+# add wave -noupdate -expand -group sorting_node_4 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/initialize
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/update_out
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/update_in
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/address_updated_out
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/address_updated_in
+# add wave -noupdate -expand -group sorting_node_4 -divider {SM sorting}
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/SM_sorting
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/addr_R_reg
@@ -526,11 +340,13 @@
 # add wave -noupdate -expand -group sorting_node_4 -radix unsigned /heapsort_tb/heapsort/sorting_node_4/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/clk
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/rst
+# add wave -noupdate -expand -group sorting_node_5 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/q_U
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/aux_q_U
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/data_U
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/addr_U
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/wren_U
+# add wave -noupdate -expand -group sorting_node_5 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/q_L
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/aux_q_L
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/data_L
@@ -541,11 +357,13 @@
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/data_R
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/addr_R
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/wren_R
+# add wave -noupdate -expand -group sorting_node_5 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/initialize
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/update_out
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/update_in
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/address_updated_out
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/address_updated_in
+# add wave -noupdate -expand -group sorting_node_5 -divider {SM Sorting}
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/SM_sorting
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/addr_R_reg
@@ -561,11 +379,13 @@
 # add wave -noupdate -expand -group sorting_node_5 -radix unsigned /heapsort_tb/heapsort/sorting_node_5/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/clk
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/rst
+# add wave -noupdate -expand -group sorting_node_6 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/q_U
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/aux_q_U
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/data_U
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/addr_U
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/wren_U
+# add wave -noupdate -expand -group sorting_node_6 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/q_L
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/aux_q_L
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/data_L
@@ -576,11 +396,13 @@
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/data_R
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/addr_R
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/wren_R
+# add wave -noupdate -expand -group sorting_node_6 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/initialize
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/update_out
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/update_in
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/address_updated_out
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/address_updated_in
+# add wave -noupdate -expand -group sorting_node_6 -divider {SM sorting}
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/SM_sorting
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/addr_R_reg
@@ -596,11 +418,13 @@
 # add wave -noupdate -expand -group sorting_node_6 -radix unsigned /heapsort_tb/heapsort/sorting_node_6/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/clk
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/rst
+# add wave -noupdate -expand -group sorting_node_7 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/q_U
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/aux_q_U
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/data_U
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/addr_U
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/wren_U
+# add wave -noupdate -expand -group sorting_node_7 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/q_L
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/aux_q_L
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/data_L
@@ -611,11 +435,13 @@
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/data_R
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/addr_R
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/wren_R
+# add wave -noupdate -expand -group sorting_node_7 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/initialize
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/update_out
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/update_in
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/address_updated_out
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/address_updated_in
+# add wave -noupdate -expand -group sorting_node_7 -divider {SM sorting}
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/SM_sorting
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/addr_R_reg
@@ -631,11 +457,13 @@
 # add wave -noupdate -expand -group sorting_node_7 -radix unsigned /heapsort_tb/heapsort/sorting_node_7/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/clk
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/rst
+# add wave -noupdate -expand -group sorting_node_8 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/q_U
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/aux_q_U
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/data_U
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/addr_U
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/wren_U
+# add wave -noupdate -expand -group sorting_node_8 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/q_L
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/aux_q_L
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/data_L
@@ -646,11 +474,13 @@
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/data_R
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/addr_R
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/wren_R
+# add wave -noupdate -expand -group sorting_node_8 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/initialize
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/update_out
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/update_in
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/address_updated_out
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/address_updated_in
+# add wave -noupdate -expand -group sorting_node_8 -divider {SM Sorting}
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/SM_sorting
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/addr_R_reg
@@ -664,48 +494,15 @@
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/update_out_reg
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/address_updated_out_reg
 # add wave -noupdate -expand -group sorting_node_8 -radix unsigned /heapsort_tb/heapsort/sorting_node_8/address_updated_in_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/clk
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/rst
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/q_U
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/aux_q_U
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_U
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_U
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_U
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/q_L
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/aux_q_L
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_L
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_L
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_L
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/q_R
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/aux_q_R
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_R
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_R
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_R
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/initialize
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/update_out
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/update_in
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/address_updated_out
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/address_updated_in
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/SM_sorting
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_L_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_R_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_L_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_R_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_U_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_U_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_L_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_R_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_U_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/update_out_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/address_updated_out_reg
-# add wave -noupdate -expand -group {sorting_ node_8} -radix unsigned /heapsort_tb/heapsort/sorting_node_9/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/clk
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/rst
+# add wave -noupdate -expand -group sorting_node_9 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/q_U
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/aux_q_U
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_U
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_U
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_U
+# add wave -noupdate -expand -group sorting_node_9 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/q_L
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/aux_q_L
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_L
@@ -716,11 +513,13 @@
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/data_R
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_R
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/wren_R
+# add wave -noupdate -expand -group sorting_node_9 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/initialize
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/update_out
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/update_in
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/address_updated_out
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/address_updated_in
+# add wave -noupdate -expand -group sorting_node_9 -divider {SM sorting}
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/SM_sorting
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/addr_R_reg
@@ -736,11 +535,13 @@
 # add wave -noupdate -expand -group sorting_node_9 -radix unsigned /heapsort_tb/heapsort/sorting_node_9/address_updated_in_reg
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/clk
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/rst
+# add wave -noupdate -expand -group sorting_node_10 -divider {Upper Records}
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/q_U
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/aux_q_U
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/data_U
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/addr_U
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/wren_U
+# add wave -noupdate -expand -group sorting_node_10 -divider {Lower Records}
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/q_L
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/aux_q_L
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/data_L
@@ -751,11 +552,13 @@
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/data_R
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/addr_R
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/wren_R
+# add wave -noupdate -expand -group sorting_node_10 -divider <NULL>
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/initialize
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/update_out
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/update_in
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/address_updated_out
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/address_updated_in
+# add wave -noupdate -expand -group sorting_node_10 -divider {SM Sorting}
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/SM_sorting
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/addr_L_reg
 # add wave -noupdate -expand -group sorting_node_10 -radix unsigned /heapsort_tb/heapsort/sorting_node_10/addr_R_reg
@@ -935,7 +738,7 @@
 # add wave -noupdate -expand -group translation_layer_10 -radix unsigned /heapsort_tb/heapsort/translation_layer_10/data_U
 # add wave -noupdate -expand -group translation_layer_10 -radix unsigned /heapsort_tb/heapsort/translation_layer_10/q_U
 # TreeUpdate [SetDefaultTree]
-# WaveRestoreCursors {{Cursor 1} {308225 ps} 0}
+# WaveRestoreCursors {{Cursor 1} {600000 ps} 0}
 # quietly wave cursor active 1
 # configure wave -namecolwidth 162
 # configure wave -valuecolwidth 100
@@ -951,9 +754,9 @@
 # configure wave -timeline 0
 # configure wave -timelineunits ns
 # update
-# WaveRestoreZoom {0 ps} {1499424 ps}
+# WaveRestoreZoom {299880 ps} {1799304 ps}
 run -all
 # Warning: read_during_write_mode_mixed_ports is assumed as               OLD_DATA
 # Time: 0  Instance: heapsort_tb.heapsort.RAM_LEVEL_1.altsyncram_component.m_default.altsyncram_inst
-# End time: 17:00:52 on Sep 16,2020, Elapsed time: 0:03:56
-# Errors: 0, Warnings: 112
+# End time: 13:12:19 on Oct 06,2020, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 11

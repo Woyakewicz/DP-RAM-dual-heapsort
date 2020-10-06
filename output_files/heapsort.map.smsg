@@ -1,3 +1,3 @@
 Warning (10268): Verilog HDL information at heapsort.v(443): always construct contains both blocking and non-blocking assignments File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/heapsort.v Line: 443
-Warning (10268): Verilog HDL information at sorting_node.v(71): always construct contains both blocking and non-blocking assignments File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v Line: 71
-Warning (10268): Verilog HDL information at sorting_node_level_1.v(71): always construct contains both blocking and non-blocking assignments File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node_level_1.v Line: 71
+Warning (10268): Verilog HDL information at sorting_node.v(68): always construct contains both blocking and non-blocking assignments File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node.v Line: 68
+Warning (10268): Verilog HDL information at sorting_node_level_1.v(68): always construct contains both blocking and non-blocking assignments File: D:/VITOR/UFSC/Linse/Wavelet/FPGA/heapsort_dual/files/sorting_node/sorting_node_level_1.v Line: 68

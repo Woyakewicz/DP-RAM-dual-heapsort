@@ -51,36 +51,36 @@ module heapsort #(parameter LEVEL = 10,
 	wire [WIDTH:0] q_R_2;
 
 	//Declaração de fios para a segunda translation layer
-	wire [1:0] addr_U_2;
+	wire [0:0] addr_U_2;
 	wire wr_en_U_2;
 	wire [WIDTH:0] data_U_2;
 	wire [WIDTH:0] q_U_2;
 	
 	
 	//Declaração de fios para a terceira memória da esquerda
-	wire [1:0] addr_U_L_3;
+	wire [0:0] addr_U_L_3;
 	wire wr_en_U_L_3;
 	wire [WIDTH:0] data_U_L_3;
 	wire [WIDTH:0] q_U_L_3;
 	
-	wire [1:0] addr_L_3;
+	wire [0:0] addr_L_3;
 	wire wr_en_L_3;
 	wire [WIDTH:0] data_L_3;
 	wire [WIDTH:0] q_L_3;
 	
 	//Declaração de fios para a terceira memória da direita
-	wire [1:0] addr_U_R_3;
+	wire [0:0] addr_U_R_3;
 	wire wr_en_U_R_3;
 	wire [WIDTH:0] data_U_R_3;
 	wire [WIDTH:0] q_U_R_3;
 	
-	wire [1:0] addr_R_3;
+	wire [0:0] addr_R_3;
 	wire wr_en_R_3;
 	wire [WIDTH:0] data_R_3;
 	wire [WIDTH:0] q_R_3;
 	
 	//Declaração de fios para a terceira translation layer
-	wire [2:0] addr_U_3;
+	wire [1:0] addr_U_3;
 	wire wr_en_U_3;
 	wire [WIDTH:0] data_U_3;
 	wire [WIDTH:0] q_U_3;
@@ -88,29 +88,29 @@ module heapsort #(parameter LEVEL = 10,
 
 	
 	//Declaração de fios para a quarta memória da esquerda
-	wire [2:0] addr_U_L_4;
+	wire [1:0] addr_U_L_4;
 	wire wr_en_U_L_4;
 	wire [WIDTH:0] data_U_L_4;
 	wire [WIDTH:0] q_U_L_4;
 	
-	wire [2:0] addr_L_4;
+	wire [1:0] addr_L_4;
 	wire wr_en_L_4;
 	wire [WIDTH:0] data_L_4;
 	wire [WIDTH:0] q_L_4;	
 	
 	//Declaração de fios para a quarta memória da direita
-	wire [2:0] addr_U_R_4;
+	wire [1:0] addr_U_R_4;
 	wire wr_en_U_R_4;
 	wire [WIDTH:0] data_U_R_4;
 	wire [WIDTH:0] q_U_R_4;
 	
-	wire [2:0] addr_R_4;
+	wire [1:0] addr_R_4;
 	wire wr_en_R_4;
 	wire [WIDTH:0] data_R_4;
 	wire [WIDTH:0] q_R_4;	
 	
 	//Declaração de fios para a quarta translation layer
-	wire [3:0] addr_U_4;
+	wire [2:0] addr_U_4;
 	wire wr_en_U_4;
 	wire [WIDTH:0] data_U_4;
 	wire [WIDTH:0] q_U_4;
@@ -118,196 +118,196 @@ module heapsort #(parameter LEVEL = 10,
 	
 	
 	//Declaração de fios para a quinta memória da esquerda
-	wire [3:0] addr_U_L_5;
+	wire [2:0] addr_U_L_5;
 	wire wr_en_U_L_5;
 	wire [WIDTH:0] data_U_L_5;
 	wire [WIDTH:0] q_U_L_5;
 	
-	wire [3:0] addr_L_5;
+	wire [2:0] addr_L_5;
 	wire wr_en_L_5;
 	wire [WIDTH:0] data_L_5;
 	wire [WIDTH:0] q_L_5;
 	
 	//Declaração de fios para a quinta memória da direita
-	wire [3:0] addr_U_R_5;
+	wire [2:0] addr_U_R_5;
 	wire wr_en_U_R_5;
 	wire [WIDTH:0] data_U_R_5;
 	wire [WIDTH:0] q_U_R_5;
 	
-	wire [3:0] addr_R_5;
+	wire [2:0] addr_R_5;
 	wire wr_en_R_5;
 	wire [WIDTH:0] data_R_5;
 	wire [WIDTH:0] q_R_5;
 	
 	//Declaração de fios para a quinta translation layer
-	wire [4:0] addr_U_5;
+	wire [3:0] addr_U_5;
 	wire wr_en_U_5;
 	wire [WIDTH:0] data_U_5;
 	wire [WIDTH:0] q_U_5;
 	
 	
 	//Declaração de fios para a sexta memória da esquerda
-	wire [4:0] addr_U_L_6;
+	wire [3:0] addr_U_L_6;
 	wire wr_en_U_L_6;
 	wire [WIDTH:0] data_U_L_6;
 	wire [WIDTH:0] q_U_L_6;
 	
-	wire [4:0] addr_L_6;
+	wire [3:0] addr_L_6;
 	wire wr_en_L_6;
 	wire [WIDTH:0] data_L_6;
 	wire [WIDTH:0] q_L_6;
 	
 	//Declaração de fios para a sexta memória da direita
-	wire [4:0] addr_U_R_6;
+	wire [3:0] addr_U_R_6;
 	wire wr_en_U_R_6;
 	wire [WIDTH:0] data_U_R_6;
 	wire [WIDTH:0] q_U_R_6;
 	
-	wire [4:0] addr_R_6;
+	wire [3:0] addr_R_6;
 	wire wr_en_R_6;
 	wire [WIDTH:0] data_R_6;
 	wire [WIDTH:0] q_R_6;
 	
 	//Declaração de fios para a sexta translation layer
-	wire [5:0] addr_U_6;
+	wire [4:0] addr_U_6;
 	wire wr_en_U_6;
 	wire [WIDTH:0] data_U_6;
 	wire [WIDTH:0] q_U_6;
 	
 	
 	//Declaração de fios para a setima memória da esquerda
-	wire [5:0] addr_U_L_7;
+	wire [4:0] addr_U_L_7;
 	wire wr_en_U_L_7;
 	wire [WIDTH:0] data_U_L_7;
 	wire [WIDTH:0] q_U_L_7;
 	
-	wire [5:0] addr_L_7;
+	wire [4:0] addr_L_7;
 	wire wr_en_L_7;
 	wire [WIDTH:0] data_L_7;
 	wire [WIDTH:0] q_L_7;	
 	
 	//Declaração de fios para a setima memória da direita
-	wire [5:0] addr_U_R_7;
+	wire [4:0] addr_U_R_7;
 	wire wr_en_U_R_7;
 	wire [WIDTH:0] data_U_R_7;
 	wire [WIDTH:0] q_U_R_7;
 	
-	wire [5:0] addr_R_7;
+	wire [4:0] addr_R_7;
 	wire wr_en_R_7;
 	wire [WIDTH:0] data_R_7;
 	wire [WIDTH:0] q_R_7;
 	
 	//Declaração de fios para a setima translation layer
-	wire [6:0] addr_U_7;
+	wire [5:0] addr_U_7;
 	wire wr_en_U_7;
 	wire [WIDTH:0] data_U_7;
 	wire [WIDTH:0] q_U_7;
 	
 	//Declaração de fios para a oitava memória da esquerda
-	wire [6:0] addr_U_L_8;
+	wire [5:0] addr_U_L_8;
 	wire wr_en_U_L_8;
 	wire [WIDTH:0] data_U_L_8;
 	wire [WIDTH:0] q_U_L_8;
 	
-	wire [6:0] addr_L_8;
+	wire [5:0] addr_L_8;
 	wire wr_en_L_8;
 	wire [WIDTH:0] data_L_8;
 	wire [WIDTH:0] q_L_8;	
 	
 	//Declaração de fios para a oitava memória da direita
-	wire [6:0] addr_U_R_8;
+	wire [5:0] addr_U_R_8;
 	wire wr_en_U_R_8;
 	wire [WIDTH:0] data_U_R_8;
 	wire [WIDTH:0] q_U_R_8;
 	
-	wire [6:0] addr_R_8;
+	wire [5:0] addr_R_8;
 	wire wr_en_R_8;
 	wire [WIDTH:0] data_R_8;
 	wire [WIDTH:0] q_R_8;
 	
 	//Declaração de fios para a oitava translation layer
-	wire [7:0] addr_U_8;
+	wire [6:0] addr_U_8;
 	wire wr_en_U_8;
 	wire [WIDTH:0] data_U_8;
 	wire [WIDTH:0] q_U_8;
 	
 	
 	//Declaração de fios para a nona memória da esquerda
-	wire [7:0] addr_U_L_9;
+	wire [6:0] addr_U_L_9;
 	wire wr_en_U_L_9;
 	wire [WIDTH:0] data_U_L_9;
 	wire [WIDTH:0] q_U_L_9;
 	
-	wire [7:0] addr_L_9;
+	wire [6:0] addr_L_9;
 	wire wr_en_L_9;
 	wire [WIDTH:0] data_L_9;
 	wire [WIDTH:0] q_L_9;	
 	
 	//Declaração de fios para a nona memória da direita
-	wire [7:0] addr_U_R_9;
+	wire [6:0] addr_U_R_9;
 	wire wr_en_U_R_9;
 	wire [WIDTH:0] data_U_R_9;
 	wire [WIDTH:0] q_U_R_9;
 	
-	wire [7:0] addr_R_9;
+	wire [6:0] addr_R_9;
 	wire wr_en_R_9;
 	wire [WIDTH:0] data_R_9;
 	wire [WIDTH:0] q_R_9;
 	
 	//Declaração de fios para a nona translation layer
-	wire [8:0] addr_U_9;
+	wire [7:0] addr_U_9;
 	wire wr_en_U_9;
 	wire [WIDTH:0] data_U_9;
 	wire [WIDTH:0] q_U_9;
 	
 	
 	//Declaração de fios para a décima memória da esquerda
-	wire [8:0] addr_U_L_10;
+	wire [7:0] addr_U_L_10;
 	wire wr_en_U_L_10;
 	wire [WIDTH:0] data_U_L_10;
 	wire [WIDTH:0] q_U_L_10;
 	
-	wire [8:0] addr_L_10;
+	wire [7:0] addr_L_10;
 	wire wr_en_L_10;
 	wire [WIDTH:0] data_L_10;
 	wire [WIDTH:0] q_L_10;	
 	
 	//Declaração de fios para a décima memória da direita
-	wire [8:0] addr_U_R_10;
+	wire [7:0] addr_U_R_10;
 	wire wr_en_U_R_10;
 	wire [WIDTH:0] data_U_R_10;
 	wire [WIDTH:0] q_U_R_10;
 	
-	wire [8:0] addr_R_10;
+	wire [7:0] addr_R_10;
 	wire wr_en_R_10;
 	wire [WIDTH:0] data_R_10;
 	wire [WIDTH:0] q_R_10;	
 	
 	//Declaração de fios para a décima translation layer
-	wire [9:0] addr_U_10;
+	wire [8:0] addr_U_10;
 	wire wr_en_U_10;
 	wire [WIDTH:0] data_U_10;
 	wire [WIDTH:0] q_U_10;
 	
 	
 	//Declaração de fios para a décima primeira memória da esquerda
-	wire [10:0] addr_U_L_11;
+	wire [9:0] addr_U_L_11;
 	wire wr_en_U_L_11;
 	wire [WIDTH:0] data_U_L_11;
 	wire [WIDTH:0] q_U_L_11;
 	
-	wire [10:0] addr_L_11;
+	wire [9:0] addr_L_11;
 	wire wr_en_L_11;
 	wire [WIDTH:0] data_L_11;
 	wire [WIDTH:0] q_L_11;	
 	
 	//Declaração de fios para a décima primeira memória da direita
-	wire [10:0] addr_U_R_11;
+	wire [9:0] addr_U_R_11;
 	wire wr_en_U_R_11;
 	wire [WIDTH:0] data_U_R_11;
 	wire [WIDTH:0] q_U_R_11;
 	
-	wire [10:0] addr_R_11;
+	wire [9:0] addr_R_11;
 	wire wr_en_R_11;
 	wire [WIDTH:0] data_R_11;
 	wire [WIDTH:0] q_R_11;	
@@ -319,53 +319,53 @@ module heapsort #(parameter LEVEL = 10,
 	//declaração de variaveis para o sorting node 1
 	wire update_out_1;
 	wire update_in_1;
-	wire [1:0] addr_up_out_RAM2;
+	wire [0:0] addr_up_out_RAM2;
 	
 	//declaração de variaveis para o sorting node 2
 	
 	wire update_out_2;
-	wire [2:0] addr_up_out_RAM3;
+	wire [1:0] addr_up_out_RAM3;
 	
 	//declaração de variaveis para o sorting node 3
 	
 	wire update_out_3;
 	reg update_out_3_reg;
-	wire [3:0] addr_up_out_RAM4;
+	wire [2:0] addr_up_out_RAM4;
 	
 	//declaração de variaveis para o sorting node 4
 	
 	wire update_out_4;
-	wire [4:0] addr_up_out_RAM5;
+	wire [3:0] addr_up_out_RAM5;
 	
 	//declaração de variaveis para o sorting node 5
 	
 	wire update_out_5;
-	wire [5:0] addr_up_out_RAM6;
+	wire [4:0] addr_up_out_RAM6;
 	
 	//declaração de variaveis para o sorting node 6
 	
 	wire update_out_6;
-	wire [6:0] addr_up_out_RAM7;
+	wire [5:0] addr_up_out_RAM7;
 	
 	//declaração de variaveis para o sorting node 7
 	
 	wire update_out_7;
-	wire [7:0] addr_up_out_RAM8;
+	wire [6:0] addr_up_out_RAM8;
 	
 	//declaração de variaveis para o sorting node 8
 	
 	wire update_out_8;
-	wire [8:0] addr_up_out_RAM9;
+	wire [7:0] addr_up_out_RAM9;
 	
 	//declaração de variaveis para o sorting node 9
 	
 	wire update_out_9;
-	wire [9:0] addr_up_out_RAM10;
+	wire [8:0] addr_up_out_RAM10;
 	
 	//declaração de variaveis para o sorting node 10
 	
 	wire update_out_10;
-	wire [10:0] addr_up_out_RAM11;
+	wire [9:0] addr_up_out_RAM11;
 	
 	/********************************************/
 	
@@ -455,9 +455,14 @@ module heapsort #(parameter LEVEL = 10,
 				wait_buffer:
 				begin
 					if (en_rec_in)
-						SM_heapsort <= first_buffer_even;
+						SM_heapsort <= wait_odds;
 					counter = 0;
 				end	
+				
+				wait_odds:
+				begin
+					SM_heapsort <= first_buffer_even;
+				end
 				
 				//inicializa os sorting nodes impares para não realizar as mesmas operações dos pares
 				first_buffer_even:
@@ -633,7 +638,7 @@ module heapsort #(parameter LEVEL = 10,
 	RAM_LEVEL_2_L (
 		.clock(clk),
 
-		.address_a(addr_U_L_2),
+		.address_a(1'b0),
 		.wren_a(wr_en_U_L_2),
 		.data_a(data_U_L_2),
 		.q_a(q_U_L_2),
@@ -649,7 +654,7 @@ module heapsort #(parameter LEVEL = 10,
 	RAM_LEVEL_2_R (
 		.clock(clk),
 
-		.address_a(addr_U_R_2),
+		.address_a(1'b0),
 		.wren_a(wr_en_U_R_2),
 		.data_a(data_U_R_2),
 		.q_a(q_U_R_2),
@@ -1314,7 +1319,7 @@ module heapsort #(parameter LEVEL = 10,
 	RAM_LEVEL_11_L (
 		.clock(clk),
 
-		.address_a(addr_U_L_11),
+		.address_a(addr_up_out_RAM10),
 		.wren_a(0),
 		.data_a(0),
 		.q_a(q_U_L_11),
@@ -1330,7 +1335,7 @@ module heapsort #(parameter LEVEL = 10,
 	RAM_LEVEL_11_R (
 		.clock(clk),
 
-		.address_a(addr_U_R_11),
+		.address_a(addr_up_out_RAM10),
 		.wren_a(0),
 		.data_a(0),
 		.q_a(q_U_R_11),
